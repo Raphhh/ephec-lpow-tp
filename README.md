@@ -123,6 +123,9 @@ Les lectures qui suivent ne sont pas obligatoires dans le cadre du cours, mais r
  6. [alsacréations - Chemins relatifs et absolus](https://www.alsacreations.com/astuce/lire/78-Quelle-est-la-difference-entre-les-chemins-relatifs-et-absolus-.html)
 
 
+Globalement, sur vos connaissances numériques générales, voir [Pix](https://pix.org/fr-be/). Pix est un service public en ligne pour évaluer, développer et certifier vos compétences numériques transversales.
+
+
 ## Ressources EPHEC
 
 ### Vos condisciples
