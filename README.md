@@ -38,6 +38,8 @@ Néanmoins, en cas de difficulté, il ne faut pas rester bloqué. Au cours de TP
 
 ### Navigateur (browser)
 
+Un [navigateur web](https://fr.wikipedia.org/wiki/Navigateur_web) est un programme informatique qui reçoit et affiche les pages du Web, et permet aux utilisateurs d'accéder à d'autres pages au travers d'hyperliens.
+
 #### Principaux navigateurs
 
  - [Firefox](https://www.mozilla.org/fr/firefox/new/) (Mozilla)
@@ -45,14 +47,17 @@ Néanmoins, en cas de difficulté, il ne faut pas rester bloqué. Au cours de TP
  - [Safari](https://www.apple.com/fr/safari/) (Apple)
  - [Edge](https://www.microsoft.com/fr-fr/edge) (Microsoft)
 
+[MDN doc - browser](https://developer.mozilla.org/fr/docs/Glossary/Browser)
+
 #### Devtools
 
-Le [devtools](https://en.wikipedia.org/wiki/Web_development_tools) est une console de débuggage présente dans le navigateur.
+La [devtools](https://en.wikipedia.org/wiki/Web_development_tools) est une console de débuggage présente dans le navigateur.
 
 Raccourci clavier pour ouvrir le devtools:
  - Windows/Linux: `F12` ou `Control`+`Shift`+`C`
  - Mac: `Command`+`Option`+`C` (attention, doit peut-être être activé [tuto](https://balsamiq.com/support/faqs/browserconsole/))
 
+[Chrome DevTools doc](https://developer.chrome.com/docs/devtools/)
 [Tuto Chrome DevTools](https://www.youtube.com/watch?v=BrsyIyYSP1c)
 
 #### Code source
@@ -66,7 +71,7 @@ Le [cache](https://fr.wikipedia.org/wiki/Cache_web) est un système qui (notamme
 
 Il est toutefois possible de forcer le navigateur à rafraîchir son cache, et donc d'affectuer une nouvelle requête vers le serveur:
  - Raccourci clavier pour vider le cache et rafraîchir la page:
-    - Windows/Linux: `CTRL`+`F5`
+    - Windows/Linux: `Control`+`F5`
     - Mac:
       - Chrome: `Cmd`+`Shift`+`R` 
       - Safari: `Cmd`+`Opt`+`E` pour vider le cache, puis `Cmd`+`R`pour rafraîchir la page 
@@ -80,6 +85,8 @@ Editeurs simples:
  - [Notepad++](https://notepad-plus-plus.org/)
  - [Sulime Text](https://www.sublimetext.com/)
  - [Visual Sudio Code](https://code.visualstudio.com/)
+
+[MDN doc - éditeurs](https://developer.mozilla.org/fr/docs/Learn/Common_questions/Tools_and_setup/Available_text_editors)
 
 ### Client FTP
 
@@ -120,7 +127,7 @@ Les lectures qui suivent ne sont pas obligatoires dans le cadre du cours, mais r
  3. [MDN - Comprendre les URL et leur structure](https://developer.mozilla.org/fr/docs/Learn/Common_questions/What_is_a_URL)
  4. [MDN - Le fonctionnement des liens sur le Web](https://developer.mozilla.org/fr/docs/Learn/Common_questions/What_are_hyperlinks)
  5. [MDN - Le fonctionnement de l'Internet](https://developer.mozilla.org/fr/docs/Learn/Common_questions/How_does_the_Internet_work)
- 6. [alsacréations - Chemins relatifs et absolus](https://www.alsacreations.com/astuce/lire/78-Quelle-est-la-difference-entre-les-chemins-relatifs-et-absolus-.html)
+ 6. [Alsacréations - Chemins relatifs et absolus](https://www.alsacreations.com/astuce/lire/78-Quelle-est-la-difference-entre-les-chemins-relatifs-et-absolus-.html)
 
 
 Globalement, sur vos connaissances numériques générales, voir [Pix](https://pix.org/fr-be/). Pix est un service public en ligne pour évaluer, développer et certifier vos compétences numériques transversales.
@@ -128,13 +135,17 @@ Globalement, sur vos connaissances numériques générales, voir [Pix](https://p
 
 ## Ressources EPHEC
 
+### Les cours et remédiations
+
+Venez au cours et participez!
+
 ### Vos condisciples
 
 Aidez-vous les uns les autres! Travaillez en équipe. Expliquez aux autres ce que vous avez compris et demendez-leur de vous aider sur ce pour quoi vous avez plus de mal. Vous progresserez chacun d'autant plus vite.
 
 ### Service d'aide à la réussite (SAR)
 
-Le SAR propose aux étudiants différents axes d'aide à la réussite, notamment un système de tutorat (voir eperso). Pour davantage de renseignements, voir le [cours Moodle du SAR](https://moodle.ephec.be/course/view.php?id=11760).
+Le SAR propose aux étudiants différents axes d'aide à la réussite, notamment un système de tutorat (voir eperso). Pour davantage de renseignements, voir le [site web](https://www.ephec.be/actualites/decouvre-le-service-daide-la-reussite) et [cours Moodle du SAR](https://moodle.ephec.be/course/view.php?id=11760).
 
 ### IT support
 
@@ -142,7 +153,7 @@ Pour toute question sur l'utilisation des ressources informatique de l'EPHEC, vo
 
 ### Service social
 
-Parmi les nombreux soutiens apportés par le service social de l'EPHEC, certaines aides financières en matériel informatique peuvent être octroyées aux étudiants. Pour davantage de renseignements, voir le [cours Moodle du service social](https://moodle.ephec.be/course/view.php?id=11765).
+Parmi les nombreux soutiens apportés par le service social de l'EPHEC, certaines aides financières en matériel informatique peuvent être octroyées aux étudiants. Pour davantage de renseignements, voir le [site web](https://www.ephec.be/service-social-de-lephec) et le [cours Moodle du service social](https://moodle.ephec.be/course/view.php?id=11765).
 
 
 ## Documentations
