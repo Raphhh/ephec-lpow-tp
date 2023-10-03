@@ -22,19 +22,25 @@
 
 Une URL représente une et une seule ressource.
 
+##### Structure de l'URL
+
 Une URL se compose d'au moins les parties suivantes:
 
-1. Le schéma
+1. Le schéma (ex: https)
 2. Le nom de domaine
-3. Le port (optionnel)
+3. Le port (optionnel, rare)
 4. Le chemin (optionnel)
+
+##### URL relative et absolue
 
 Il existe plusieurs façons de définir une URL dans le HTML:
 
 1. URL absolue (càd commençant par le schéma)
 2. URL relative (à l'URL courante)
 
-Dans le cadre d'une URL relative, il est donc possible de n'indiquer que le chemin.
+Dans le cadre d'une URL relative, il est donc possible de n'indiquer que le chemin, par exemple.
+
+##### Chemin absolu et relatif
 
 De même, il existe plusieurs façons de définir, au sein d'une URL, le chemin:
    1. Chemin absolu (ou relatif à la racine)
