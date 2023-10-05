@@ -4,7 +4,7 @@
 
 ### Enoncé
 
- 1. Créer un fichier `tableaux/index.*`.
+ 1. Créer un fichier `tableaux/index.html`.
  2. Veiller à comprendre par quelle URL y accéder en HTTP.
  3. Par ce fichier, afficher un tableau simple, avec au moins:
     - Plusieurs lignes

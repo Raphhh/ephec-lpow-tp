@@ -4,7 +4,7 @@
 
 ### Enoncé
 
- 1. Créer un fichier `index.*`.
+ 1. Créer un fichier `index.html`.
  2. Veiller à comprendre pour quelle raison ce fichier est ainsi nommé et par quelles URL y accéder en HTTP.
  3. Dans ce fichier, créer la structure de base d'un document HTML.
 
@@ -16,7 +16,7 @@
 
 Le charset est l'encodage du jeux de caractères typographiques utilisés dans l'écriture des langues (caractères visibles et invisibles). (Pour plus d'information, voir [W3.org - characters](https://www.w3.org/International/getting-started/characters).)
 
-L'[UTF-8](https://fr.wikipedia.org/wiki/UTF-8) est un encodage Unicode permettant de supporter les caractères typographiques des principales langues. C'est aujourd'hui le format le plus adapté au web, et devrait être systématiquement utilisé.
+L'[UTF-8](https://fr.wikipedia.org/wiki/UTF-8) est un encodage Unicode permettant de supporter les caractères typographiques des principales langues. C'est aujourd'hui le format le plus adapté au web, et il devrait être systématiquement utilisé.
 
 A noter que l'UTF-8 est rétrocompatible avec l'ASCII, mais pas avec l'ISO-8859-1, deux anciennes normes.
 
