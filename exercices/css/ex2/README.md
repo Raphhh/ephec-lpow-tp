@@ -6,6 +6,8 @@
 
 ### Remarques théoriques
 
+#### Disclaimer
+
 Ne sont abordés ici que les principes théoriques suivants:
  - Les principaux types de sélecteurs: id, class, tag, ...
  - La combinaison de sélecteurs (ou combinateurs).
@@ -19,4 +21,27 @@ Sur ce sujet, voir [MDN docs - sélecteurs](https://developer.mozilla.org/fr/doc
  - L'[héritage](https://developer.mozilla.org/fr/docs/Web/CSS/inheritance) des déclarations: un élément enfant hérite de certaines déclarations d'un élément parent.
 
  Sur ce sujet, voir [MDN docs - Cascade, spécificité et héritage](https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance).
+
+#### Sélecteurs
+
+##### A connaître!
+
+| Sélecteur | Principe de sélection | Syntaxe | exemples |
+|-|-|-|
+| type (tag) | Par nom de balise | `nomDeBalise` | `p`, `h1`, `div`, ... |
+| classe (class) | Par nom de classe des balises | `.nomDeClass` | `.rouge` |
+| identifiant (id) | Par id d'une balise | `#id` | `#main-title` |
+| descendants | Tous les descendants d'éléments | ` ` (espace) | `.parent . child` |
+| pseudo-classes | En fonction des états des éléments | `:etat` | `a:visited` |
+
+##### Sélecteurs supplémentaires
+
+| Sélecteur | Syntaxe | exemples |
+|-|-|-|
+| universel | `*` | `*` |
+| attribut | `[attr]`, `[attr=valeur]`, ... | [name=gsm] |
+| voisin direct | `+` | `div + p` |
+| voisins | `~` | `div ~ p` |
+| descendants directs |  `>` | `p > span` |
+| pseudo-éléments | `::etat` | `p::first-line` |
 
