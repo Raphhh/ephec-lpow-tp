@@ -4,7 +4,8 @@
 
 ### Enoncé
 
- 1. Par ce fichier principal tel que créé à l'exercice 1, afficher des images propres au site (c'est-à-dire se trouvant dans le même [domaine](https://developer.mozilla.org/fr/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines)), via des **chemins relatifs**.
+ 1. Par ce fichier principal tel que créé à l'exercice 1 (`/index.html`), afficher des images propres au site (c'est-à-dire se trouvant dans le même [domaine](https://developer.mozilla.org/fr/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines)), via des **chemins relatifs**.
+ 2. Créer un nouveau fichier HTML dans un sous-répertoire à la racine du site (ex: `/blog/index.html`). Par ce nouveau fichier, afficher les mêmes images, toujours via des **chemins relatifs**.
 
 [Corrections (v3)](./corrections)
 
@@ -43,8 +44,8 @@ Dans le cadre d'une URL relative, il est donc possible de n'indiquer que le chem
 ##### Chemin absolu et relatif
 
 De même, il existe plusieurs façons de définir, au sein d'une URL, le chemin:
-   1. Chemin absolu (ou relatif à la racine)
-   2. Chemin relatif (au répertoire courant) (possible uniquement dans une URL relative n'incluant que le chemin)
+   1. Chemin absolu (càd commençant par la racine)
+   2. Chemin relatif (au répertoire courant) (dans le cas des URL, possible uniquement dans une URL relative n'incluant que le chemin)
 
 Dans le cadre de la définition d'un chemin, il faut noter les règles de navigation suivantes:
  - `/` (séparateur de répertoire) indique, utilisé en tête de chemin, le répertoire racine. 

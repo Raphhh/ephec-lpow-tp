@@ -4,7 +4,7 @@
 
 ### Enoncé
 
- 1. Créer un fichier `index.html`.
+ 1. Créer un fichier `/index.html` à la racine du site.
  2. Veiller à comprendre pour quelle raison ce fichier est ainsi nommé et par quelles URL y accéder en HTTP.
  3. Dans ce fichier, créer la structure de base d'un document HTML.
 
