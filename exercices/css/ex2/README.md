@@ -31,7 +31,7 @@ Sur ce sujet, voir [MDN docs - sélecteurs](https://developer.mozilla.org/fr/doc
 | type (tag) | Par nom de balise | `nomDeBalise` | `p`, `h1`, `div`, ... |
 | classe (class) | Par nom de classe des balises | `.nomDeClass` | `.rouge` |
 | identifiant (id) | Par id d'une balise | `#id` | `#main-title` |
-| descendants | Tous les descendants d'éléments | ` ` (espace) | `.parent . child` |
+| descendants | Tous les descendants d'éléments | ` ` (espace) | `.parent .child` |
 | pseudo-classes | En fonction des états des éléments | `:etat` | `a:visited` |
 
 ##### Sélecteurs supplémentaires
