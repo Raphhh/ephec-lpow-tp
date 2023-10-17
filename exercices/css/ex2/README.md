@@ -24,24 +24,25 @@ Sur ce sujet, voir [MDN docs - sélecteurs](https://developer.mozilla.org/fr/doc
 
 #### Sélecteurs
 
-##### A connaître!
+##### Sélecteurs simples
 
-| Sélecteur | Principe de sélection | Syntaxe | exemples |
+| Sélecteur | Principe de sélection | Syntaxe | Exemples |
 |-|-|-|-|
-| type (tag) | Par nom de balise | `nomDeBalise` | `p`, `h1`, `div`, ... |
-| classe (class) | Par nom de classe des balises | `.nomDeClass` | `.rouge` |
-| identifiant (id) | Par id d'une balise | `#id` | `#main-title` |
-| descendants | Tous les descendants d'éléments | ` ` (espace) | `.parent .child` |
-| pseudo-classes | En fonction des états des éléments | `:etat` | `a:visited` |
+| universel | Tous les éléments | `*` | `*` |
+| type (tag) (important!) | Par nom de balise | `nomDeBalise` | `p`, `h1`, `div`, ... |
+| classe (class) (important!) | Par nom de classe des balises | `.nomDeClass` | `.rouge` |
+| identifiant (id) (important!) | Par id d'une balise | `#id` | `#main-title` |
+| attribut (important!) | Par nom et potentiellement valeur d'un attribut des éléments | `[attr]`, `[attr=valeur]`, ... | [name=gsm] |
+| pseudo-classes (important!) | En fonction des états des éléments | `:etat` | `a:visited` |
+| pseudo-éléments |  | `::etat` | `p::first-line` |
 
-##### Sélecteurs supplémentaires
+##### Combinateurs
 
-| Sélecteur | Syntaxe | exemples |
-|-|-|-|
-| universel | `*` | `*` |
-| attribut | `[attr]`, `[attr=valeur]`, ... | [name=gsm] |
-| voisin direct | `+` | `div + p` |
-| voisins | `~` | `div ~ p` |
-| descendants directs |  `>` | `p > span` |
-| pseudo-éléments | `::etat` | `p::first-line` |
+| Sélecteur | Principe de sélection | Syntaxe | Exemples |
+|-|-|-|-|
+| descendants (important!) | Tous les descendants d'éléments | ` ` (espace) | `.parent .child` |
+| descendants directs | Les éléments descendants directs seulement |  `>` | `p > span` |
+| voisins | Tous les éléments voisins | `~` | `div ~ p` |
+| voisin direct | Les éléments voisins directs seulement | `+` | `div + p` |
 
+A noter que les sélecteurs peuvent s'ajouter pour désigner un même élément (ex: `p.class`).
