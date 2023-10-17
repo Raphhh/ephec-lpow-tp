@@ -50,3 +50,4 @@ Sur ce sujet, voir [MDN docs - sélecteurs](https://developer.mozilla.org/fr/doc
  - Les sélecteurs peuvent s'ajouter pour désigner un même élément (ex: `p.class`).
  - Chaque élément peut contenir plusieurs noms de classe séparés par un espace (qui peuvent également être combiné) (ex: `<p class="rouge grand" ...` pourra être sélectionné par `.rouge`, `.grand` ou encore `.rouge.grand`).
  - Pour des raisons de syntaxe CSS, un id ne devrait pas contenir d'espace.
+ - Pour affecter des mêmes règles CSS à plusieurs sélecteurs, il est possible de lister les sélecteurs en les séparant par une virgule (ex: `.rouge, .grand { ... }`).
