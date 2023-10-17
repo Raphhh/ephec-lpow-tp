@@ -27,7 +27,7 @@ Sur ce sujet, voir [MDN docs - sélecteurs](https://developer.mozilla.org/fr/doc
 ##### A connaître!
 
 | Sélecteur | Principe de sélection | Syntaxe | exemples |
-|-|-|-|
+|-|-|-|-|
 | type (tag) | Par nom de balise | `nomDeBalise` | `p`, `h1`, `div`, ... |
 | classe (class) | Par nom de classe des balises | `.nomDeClass` | `.rouge` |
 | identifiant (id) | Par id d'une balise | `#id` | `#main-title` |
