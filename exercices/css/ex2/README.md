@@ -32,7 +32,7 @@ Sur ce sujet, voir [MDN docs - sélecteurs](https://developer.mozilla.org/fr/doc
 | type (tag) (important!) | Par nom de balise | `nomDeBalise` | `p`, `h1`, `div`, ... |
 | classe (class) (important!) | Par nom de classe des balises | `.nomDeClass` | `.rouge` |
 | identifiant (id) (important!) | Par id d'une balise | `#id` | `#main-title` |
-| attribut (important!) | Par nom et potentiellement valeur d'un attribut des éléments | `[attr]`, `[attr=valeur]`, ... | [name=gsm] |
+| attribut (important!) | Par nom et potentiellement valeur d'un attribut des éléments | `[attr]`, `[attr=valeur]`, ... | `[name=gsm]` |
 | pseudo-classes (important!) | En fonction des états des éléments | `:etat` | `a:visited` |
 | pseudo-éléments |  | `::etat` | `p::first-line` |
 
