@@ -45,4 +45,8 @@ Sur ce sujet, voir [MDN docs - sélecteurs](https://developer.mozilla.org/fr/doc
 | voisins | Tous les éléments voisins | `~` | `div ~ p` |
 | voisin direct | Les éléments voisins directs seulement | `+` | `div + p` |
 
-A noter que les sélecteurs peuvent s'ajouter pour désigner un même élément (ex: `p.class`).
+##### Particularités
+
+ - Les sélecteurs peuvent s'ajouter pour désigner un même élément (ex: `p.class`).
+ - Chaque élément peut contenir plusieurs noms de classe séparés par un espace (qui peuvent également être combiné) (ex: `<p class="rouge grand" ...` pourra être sélectionné par `.rouge`, `.grand` ou encore `.rouge.grand`).
+ - Pour des raisons de syntaxe CSS, un id ne devrait pas contenir d'espace.
