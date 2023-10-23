@@ -1,51 +1,48 @@
 # CSS
 
-## Exercice 10: marges
+## Exercice 5: fonds
+
+TODO: cet exercice devrait se trouver après les explications du box model.
 
 ### Enoncé
 
- 1. Utiliser les propriétés de marge sur un élément de type bloc ("block box") possédant une bordure:
-    - Marges internes (padding)
-    - Marges externes (margin)
- 2. Tester les mêmes propriétés de marge sur un élément de type en ligne par défaut ("inline box") possédant une bordure.
+ 1. Utiliser les propriétés d'arrière-plan (background):
+    - Couleur de fond
+    - Image de fond
+    - Dégradé de couleur
 
 ### Exemples
 
-#### Block box
- 
- 1. Centrer un `body` possédant une largeur maximum inférieure à la largeur de l'écran.
- 2. Ajouter une marge externe uniquement entre chaque article.
- 3. Ajouter une marge interne dans chaque article.
+ 1. Appliquer une couleur de fond aux pages entières.
+ 2. Appliquer une image de fond à une page entière.
+ 3. Appliquer un dégradé de couleur en arrière-plan d'un élément `header`.
 
-#### Inline box
-
- 1. Ajouter une marge interne sur les liens du menu de navigation.
-
-[Corrections (v9)](./corrections)
+[Corrections (v4)](./corrections)
 
 ### Remarques théoriques
 
-#### Plusieurs positions par déclaration
+#### Zone de fond
 
-Les propriétés raccourcies `margin` et `padding` peuvent accueillir plusieurs valeurs en fonction des positions.
-   1. Si 1 seule valeur est présente, elle s'applique communément aux positions `top`, `right`, `bottom`, `left`.
-   2. Si 2 valeurs sont présentes:
-      1. La première s'applique aux positions `top` et `bottom`.
-      2. La seconde s'applique aux positions `right` et `left`.
-   3. Si 3 valeurs sont présentes:
-      1. La première s'applique à la position `top`.
-      2. La deuxième s'applique aux positions `right` et `left`.
-      3. La troisième s'applique à la position `bottom`.
-   4. Si 4 valeurs sont présentes:
-      1. La première s'applique à la position `top`.
-      2. La deuxième s'applique aux positions `right`.
-      3. La troisième s'applique à la position `bottom`.
-      4. La quatrième s'applique à la position `left`.
+Par défaut (pour des notions avancées sur ce sujet, voir [MDN docs - background-clip](https://developer.mozilla.org/fr/docs/Web/CSS/background-clip)), la zone de fond comprend la boîte de contenu ("content box") de l'élément, ainsi que ses marges internes ("padding box") et ses bordures ("border box") (les bordures pouvant toutefois couvrir visuellement le fond). La zone de fond s'arrête donc avant les marges externes.
 
-#### Box model et dimensions d'affichage
+A noter que, toutefois, l'élément `body` est une [exception à cette règle](https://stackoverflow.com/questions/33282363/background-image-appearing-in-the-body-margin), dans la mesure où sa zone de fond s'étend sur toute la zone d'affichage du navigateur (viewport), laquelle comprend donc également les marges externes de l'élément, et quelque soit aussi les dimensions réelles de l'élément. Autrement dit, affecter un fond à l'élément `body` revient en somme à l'appliquer à l'élément `html`.  
 
-Pour rappel, les marges influent sur les dimensions d'affichage, selon le modèle de boîte CSS.
+#### Couleur vs. images
 
-#### Fusion des marges
+Une image apparaît au-dessus de la couleur d'un élément.
 
-A noter que, dans le cadre du flux normal d'affichage, si deux éléments adjacents possèdent tous deux une marge externe (`margin`) se touchant l'une et l'autre, seule la marge la plus importante des deux sera prise en considération. Deux marges ne s'aditionnent donc pas. Attention toutefois que, techniquement, les deux marges sont toujours présentes: elles ne font que se chevaucher dans l'affichage final. (Voir [MDN docs - Fusion des marges](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing))
+A noter qu'un dégradé de couleur généré en CSS est considéré comme une [image](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Images).
+
+#### Plusieurs propriétés par déclaration
+
+A noter que la propriété raccourcie `background` permet de définir la valeur de plusieurs propriétés de fond ([MDN docs - background](https://developer.mozilla.org/fr/docs/Web/CSS/background)).
+
+#### Les fonctions CSS
+
+A noter que l'URL de l'image ou encore le dégradé de couleur sont gérés via des fonctions CSS ([MDN docs - fonctions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions)).
+
+### Remarques techniques
+
+#### URL d'images
+
+Pour préciser l'URL d'une image, les mêmes remarques que les URL en HTML s'appliquent. Attention toutefois que le chemin est relatif au répertoire du fichier contenant le CSS.
