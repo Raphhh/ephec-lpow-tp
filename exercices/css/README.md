@@ -9,7 +9,7 @@ Ces exercices complètent les exercices [HTML](../html) en rajoutant au code une
 5. [Exercice 5: listes](./ex05/)
 6. [Exercice 6: display](./ex06/)
 7. [Exercice 7: dimensions d'affichage](./ex07/)
-8. [Exercice 8: bordures (border)](./ex08/)
+8. [Exercice 8: bordures](./ex08/)
 9. [Exercice 9: marges](./ex09/)
 10. [Exercice 10: fonds](./ex10/)
 11. [Exercice 11: positionnement (position)](./ex11/)

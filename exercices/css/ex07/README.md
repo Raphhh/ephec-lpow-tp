@@ -16,7 +16,7 @@
 
 ##### display: block
  1. Afficher un paragraphe avec une hauteur et une largeur fixe.
- 2. Optionnel (car propriété pas expliquée en théorie): remplissez l'élément avec plus de texte que ce dont ne dispose l'espace du paragraphe, et tester les différents types de dépassement.
+ 2. Optionnel (car propriété pas expliquée en théorie): remplir l'élément avec plus de texte que ce dont ne dispose l'espace du paragraphe, et tester les différents types de dépassement.
  3. Afficher un `body` possédant une largeur maximum (ex: 1024px) inférieure à la largeur de l'écran (ex: 1920px), et jouer avec la taille de la fenêtre pour imaginer l'affichage sous différentes tailles d'écran.
 
 ##### display: table
