@@ -46,6 +46,20 @@ Les propriétés raccourcies `margin` et `padding` peuvent accueillir plusieurs 
 
 Pour rappel, les marges influent sur les dimensions d'affichage, selon le modèle de boîte CSS.
 
+#### Centrage
+
+A noter que, lorsque l'on restreint un élément "block" dans sa largeur et qu'on lui applique un margin "auto" également sur la largeur, l'élément est centré.
+
+##### Exemple
+
+```css
+.center {
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+}
+```
+
 #### Fusion des marges
 
 A noter que, pour les éléments "inline", la marge du haut (`margin-top`) et la marge du bas (`margin-top`) ne s'appliquent jamais.
