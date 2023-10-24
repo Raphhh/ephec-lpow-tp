@@ -1,6 +1,6 @@
 # CSS
 
-## Exercice 9: bordures
+## Exercice 8: bordures
 
 ### Enoncé
 

@@ -1,6 +1,6 @@
 # CSS
 
-## Exercice 8: dimensions d'affichage
+## Exercice 7: dimensions d'affichage
 
 ### Enoncé
 

@@ -1,6 +1,6 @@
 # CSS
 
-## Exercice 6: listes
+## Exercice 5: listes
 
 ### Enoncé
 

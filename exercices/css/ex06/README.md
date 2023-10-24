@@ -1,10 +1,10 @@
 # CSS
 
-## Exercice 7: display
+## Exercice 6: display
 
 ### Enoncé
 
-TODO
+ 1. Jouer avec la propriété display des différents éléments du template [box model](../box-model.html).
 
 ### Remarques téhoriques
 

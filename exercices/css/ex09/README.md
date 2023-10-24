@@ -1,6 +1,6 @@
 # CSS
 
-## Exercice 10: marges
+## Exercice 9: marges
 
 ### Enoncé
 

@@ -1,6 +1,6 @@
 # CSS
 
-## Exercice 5: fonds
+## Exercice 10: fonds
 
 ### Enoncé
 
