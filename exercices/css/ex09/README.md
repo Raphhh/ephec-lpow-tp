@@ -48,4 +48,14 @@ Pour rappel, les marges influent sur les dimensions d'affichage, selon le modèl
 
 #### Fusion des marges
 
+A noter que, pour les éléments "inline", la marge du haut (`margin-top`) et la marge du bas (`margin-top`) ne s'appliquent jamais.
+
+A noter que, pour les éléments "block" contenus dans un élément sans padding, la marge du haut (`margin-top`) du premier élément et la marge du bas (`margin-top`) du dernier élément ne s'appliquent pas.
+
 A noter que, dans le cadre du flux normal d'affichage, si deux éléments adjacents possèdent tous deux une marge externe (`margin`) se touchant l'une et l'autre, seule la marge la plus importante des deux sera prise en considération. Deux marges ne s'aditionnent donc pas. Attention toutefois que, techniquement, les deux marges sont toujours présentes: elles ne font que se chevaucher dans l'affichage final. (Voir [MDN docs - Fusion des marges](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing))
+
+##### Exemple
+
+Sur ce exemple, seuls les éléments en vert possèdent une marge de 10px.
+
+![Box model](../../../resources/images/box-model.png)

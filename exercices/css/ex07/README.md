@@ -58,7 +58,7 @@ Par défaut, la largeur des éléments de type "bloc" (valeur commune: `block`) 
 
 Seuls les éléments de type "block container" (valeurs communes: `block`, `table`, `inline-block`) sont impactés par la modification de dimensions d'affichage (et de marges), au contraire des autres éléments (valeur commune: `inline`) qui conserveront toujours leur dimension d'origine.
 
-A noter que forcer les dimensions de la boîte de contenu peut entraîner un dépassement de contenu (voir [MDN docs - dépassement de contenu](https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Overflowing_content)).
+A noter que forcer les dimensions de la boîte de contenu peut entraîner un dépassement de contenu (voir [MDN docs - dépassement de contenu](https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Overflowing_content)) ou du contenant.
 
 Pour plus d'information, voir [MDN docs - display](https://developer.mozilla.org/fr/docs/Web/CSS/display).
 
