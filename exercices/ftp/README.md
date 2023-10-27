@@ -18,7 +18,7 @@ Les différents exercices présentés dans cette partie vise à utiliser de mani
 
  1. Se connecter à un serveur via des identifiants FTP (host + user + pwd).
 
-[Correction](https://www.youtube.com/watch?v=CikGfK65Nak)
+![Correction](https://www.youtube.com/watch?v=CikGfK65Nak)
 
 #### Erreurs courantes
 
@@ -31,7 +31,7 @@ Les différents exercices présentés dans cette partie vise à utiliser de mani
  1. Enregistrer la connexion actuelle dans son gestionnaire de site.
  2. Synchroniser le dossier racine distant avec un répertoire (dossier) local vierge et spécifique au projet créé au préalable.
 
-[Correction](https://www.youtube.com/watch?v=qP2z331O0b8)
+![Correction](https://www.youtube.com/watch?v=qP2z331O0b8)
 
 #### Erreurs courantes
 
@@ -43,11 +43,11 @@ Ceci implique que le client FTP aient bien accès aux répertoires (dossiers), c
  1. Créer puis téléverser un fichier `index.html` à la racine du projet. 
  2. Naviguer sur la homepage de l'adresse HTTP du serveur et s'assurer du satut HTTP "200 OK".
 
-[Correction](https://www.youtube.com/watch?v=roN_l-QVHMo)
+![Correction](https://www.youtube.com/watch?v=roN_l-QVHMo)
 
 #### Remarques
 
-Les extensions de fichier ne sont pas affichées par défaut par les gestionnaires de fichiers. Lire les [bonnes pratiques](../) à ce sujet.
+Les extensions de fichier ne sont pas affichées par défaut par les gestionnaires de fichiers. Lire les [bonnes pratiques](../../#extensions-de-fichier-cachées) à ce sujet.
 
 Le statut de la réponse HTTP peut être connu via le [web tools](https://en.wikipedia.org/wiki/Web_development_tools) du navigateur.
 
@@ -60,5 +60,5 @@ Le statut de la réponse HTTP peut être connu via le [web tools](https://en.wik
 
  1. Télécharger les fichiers présents à la racine du serveur dans un dossier local vierge et spécifique au projet.
 
- [Correction](https://www.youtube.com/watch?v=zYQml1yslWU)
+ ![Correction](https://www.youtube.com/watch?v=zYQml1yslWU)
 
