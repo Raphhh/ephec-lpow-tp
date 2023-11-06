@@ -72,4 +72,4 @@ A noter que, dans le cadre du flux normal d'affichage, si deux éléments adjace
 
 Sur ce exemple, seuls les éléments en vert possèdent une marge de 10px.
 
-![Box model](../../../resources/images/box-model.png)
+![Box model](../../../../resources/images/box-model.png)
