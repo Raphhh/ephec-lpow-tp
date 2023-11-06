@@ -4,7 +4,7 @@
 
 ### Enoncé
 
- 1. Jouer avec la propriété display des différents éléments du template [box model](../box-model.html).
+ 1. Jouer avec la propriété display des différents éléments du template [box model](../../box-model.html).
 
 ### Remarques téhoriques
 
