@@ -4,13 +4,13 @@ Les différents exercices présentés dans cette partie se complètent les uns l
 
 **Attention:** le code produit doit être validé par le [W3C validator](https://validator.w3.org/). 
 
-1. [Exercice 1: document de base](./ex1)
-2. [Exercice 2: structures et textes](./ex2)
-3. [Exercice 3: images](./ex3)
-4. [Exercice 4: listes](./ex4)
-5. [Exercice 5: tableaux](./ex5)
-6. [Exercice 6: liens](./ex6)
-7. [Exercice 7: formulaires](./ex7)
+1. [Exercice 1: document de base](./exercices/01-doctype)
+2. [Exercice 2: structures et textes](./exercices/02-text)
+3. [Exercice 3: images](./exercices/03-img)
+4. [Exercice 4: listes](./exercices/04-list)
+5. [Exercice 5: tableaux](./exercices/05-table)
+6. [Exercice 6: liens](./exercices/06-a)
+7. [Exercice 7: formulaires](./exercices/07-form)
 
 ## Remarques théoriques
 
