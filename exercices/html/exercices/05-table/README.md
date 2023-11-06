@@ -19,7 +19,7 @@
     - Une fusion de cellules par ligne
 
 Exemple de tableau complexe:
-![Tableau complexe](../../../resources/images/tableau.png)
+![Tableau complexe](../../../../resources/images/tableau.png)
 
 [Corrections (v5)](./corrections)
 
