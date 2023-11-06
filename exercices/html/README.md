@@ -181,3 +181,11 @@ Procédure pour écrire du HTML valide (principe général du "quand on l'ouvre,
 ### Formulaires
 
 TODO
+
+### Inclusions
+
+| Tag | Attributs | Sémantique | Exemple | Documentation |
+|-----|-----------|------------|---------|---------------|
+| `link` | `href`, `rel="stylesheet"`  | Inclusion d'une ressources CSS | `<link rel="stylesheet" href="main.css">` | [MDN docs - link](https://developer.mozilla.org/fr/docs/Web/HTML/Element/link) |
+| `style` |   | Inclusion d'un code CSS | `<style></style>` | [MDN docs - style](https://developer.mozilla.org/fr/docs/Web/HTML/Element/style) |
+| `script` | `src`  | Inclusion d'une ressources ou d'un code JS | `<script src="main.js"></script>` | [MDN docs - script](https://developer.mozilla.org/fr/docs/Web/HTML/Element/script) |
