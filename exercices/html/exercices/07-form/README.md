@@ -63,7 +63,7 @@
 
 #### Formulaire en HTML
 
-Un formulaire se compose d'un élément `form` dans lequel se trouvent plusieurs élements de champ (`input`, `select`, ...). Parmi ces éléments de champ se trouve un bouton de soumission du formulaire. Lorsque l'utilisateur clique sur le bouton de soumission, il soumet le formulaire. Dès lors, est soumis l'ensemble des champs se trouvant dans le même formulaire que le bouton.
+Un formulaire se compose d'un élément `form` dans lequel se trouvent plusieurs élements de champ (`input`, `select`, ...). Parmi ces éléments de champ se trouve un bouton de soumission du formulaire. Lorsque l'utilisateur clique sur le bouton de soumission, il soumet le formulaire. Dès lors, sont soumis l'ensemble des champs se trouvant dans le même formulaire que le bouton.
 
 Sur les formulaires, d'une manière globale, voir [MDN docs - forms](https://developer.mozilla.org/en-US/docs/Learn/Forms).
 Voir également [MDN docs - Comment structurer un formulaire HTML](https://developer.mozilla.org/fr/docs/Learn/Forms/How_to_structure_a_web_form)
@@ -78,7 +78,7 @@ Par conséquent, la bonne compréhension des formulaires implique l'utilisation 
 
 La balise `form` permet de paramétrer certains éléments de la request HTTP envoyée lors de la soumission du formulaire:
  - `method`: méthode de la request HTTP (principales valeurs acceptées: `get` ou `post`)
- - `action`: URL de la request HTTP
+ - `action`: URL de la request HTTP (ou autre, notions avancées)
  - (`enctype`: encodage des données dans le cas d'une méthode POST (notions avancées))
 
 Pour plus d'information, voir [MDN docs - form](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form).
@@ -97,7 +97,7 @@ Les données telles qu'acheminées par HTTP sont visibles, pour débuggage, dans
 
 Avertissement: les formulaires peuvent contenir des données sensibles, lesquelles vont transiter de manière publique sur Internet.
 
-D'une manière générale, il n'est pas recommandé de faire transiter des données sensibles dans l'URL. Un formulaire utilisant la méthode HTTP `GET` est donc à manipuler avec précaution puisque ses données seront envoyées dans l'URL. Ce cas est cependant assez rare puisque, en général, les formulaires font appel à la méthode `POST` et ne passent ainsi leurs données que dans le corps du message HTTP.
+D'une manière générale, il n'est pas recommandé de faire transiter des données sensibles dans l'URL (les URL pouvant notamment être enregistrées dans des fichiers du client ou du serveur). Un formulaire utilisant la méthode HTTP `GET` est donc à manipuler avec précaution puisque ses données seront envoyées dans l'URL. Ce cas est cependant assez rare puisque, en général, les formulaires font appel à la méthode `POST` et ne passent ainsi leurs données que dans le corps du message HTTP.
 
 Dans tous les cas, pour des raisons de sécurité, il est impératif de n'utiliser que le protocole HTTPS (et non HTTP), seul garant de (notamment) la confidentiallité et l'intégrité des données. De toute façon, d'une manière générale, il est recommandé d'utiliser systématiquement HTTPS, même sans formulaire.
 

@@ -54,8 +54,8 @@
     <textarea name="my-textarea" id="my-textarea-id"></textarea>
     <br>
 
-    <input type="submit" name="my-submit">
-    <input type="reset" name="my-reset">
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
 
 </form>
 
@@ -109,8 +109,8 @@
     </select>
     <br>
 
-    <input type="submit" name="my-submit">
-    <input type="reset" name="my-reset">
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
 
 </form>
 
@@ -133,9 +133,8 @@
         <input type="checkbox" name="my-input-checkbox-alone" id="my-input-checkbox-alone-id" checked>
     </fieldset>
 
-    <input type="submit" name="my-submit">
-    <input type="reset" name="my-reset">
-
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
 </form>
 
 
@@ -144,8 +143,8 @@
 
     <input type="hidden" name="my-input-hidden" value="my-input-hidden-value">
 
-    <input type="submit" name="my-submit">
-    <input type="reset" name="my-reset">
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
 
 </form>
 
