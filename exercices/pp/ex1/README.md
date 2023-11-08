@@ -112,6 +112,11 @@ true == true
 ```
 
 ```javascript
+false == false
+// que vaut l'expression?
+```
+
+```javascript
 'foo' == 'foo'
 // que vaut l'expression?
 ```
