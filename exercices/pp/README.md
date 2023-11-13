@@ -2,13 +2,13 @@
 
 Sont regroupés ici les exercices de compréhension des bases de la programmation, telles que nécessaires pour aborder la suite du cours.
 
-1. [Exercices 1: opérateurs](./ex1)
-2. [Exercices 2: variables (et constantes)](./ex2)
-3. [Exercices 3: conditions](./ex3)
-4. [Exercices 4: fonctions](./ex4)
-5. [Exercices 5: boucles](./ex5)
-6. [Exercices 6: tableaux indexés](./ex6)
-7. [Exercices 7: tableaux associatifs (PHP)](./ex7)
+1. [Exercices 1: opérateurs](./exercices/01-operators/)
+2. [Exercices 2: variables (et constantes)](./exercices/02-variables)
+3. [Exercices 3: conditions](./exercices/03-conditions)
+4. [Exercices 4: fonctions](./exercices/04-functions)
+5. [Exercices 5: boucles](./exercices/05-loops)
+6. [Exercices 6: tableaux indexés](./exercices/06-arrays)
+7. [Exercices 7: tableaux associatifs (PHP)](./exercices/07-assoc)
 
 ## Remarques techniques
 

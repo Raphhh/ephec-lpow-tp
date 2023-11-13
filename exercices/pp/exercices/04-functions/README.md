@@ -49,7 +49,7 @@ Attention: le but de l'exercice est de ne PAS utiliser l'opérateur de puissance
 
 #### 5. Equation du second degré (Optionnel)
  
- Refactorer le programme de l'équation du second degré. Refactorer signifie réécrire le code d'une meilleure façon. En effet, on remarque que ce programme tel qu'écrit dans sa [première version](../ex3/corrections/e-second/) comporte plusieurs morceaux de code fort similaires. De telles duplications de code sont à proscrire. Il serait donc intéressant de réécrire le programme en utilisant des fonctions.
+ Refactorer le programme de l'équation du second degré. Refactorer signifie réécrire le code d'une meilleure façon. En effet, on remarque que ce programme tel qu'écrit dans sa [première version](../03-conditions/corrections/e-second/) comporte plusieurs morceaux de code fort similaires. De telles duplications de code sont à proscrire. Il serait donc intéressant de réécrire le programme en utilisant des fonctions.
 
 [Correction](./corrections/e-second/)
 
