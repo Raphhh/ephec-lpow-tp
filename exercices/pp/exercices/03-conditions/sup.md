@@ -11,12 +11,13 @@ Soit une variable contenant l'âge d'une personne. Afficher un message indiquant
 Soit deux variables contenant chacune un nombre. Comparer ces nombres et afficher lequel est plus grand ou si les deux nombres sont égaux.
 
 #### Exercice 3 : Vérification du login et du mot de passe
-Soit une variable contenant un login (nom d'utilisateur) et une variable contenant un mot de passe. Vérifiez si le login est égal à "utilisateur" et si le mot de passe est égal à "motdepasse". Si les deux conditions sont remplies, afficher un message de bienvenue. Sinon, afficher un message d'erreur.
+Soit une variable contenant un nom d'utilisateur et une variable contenant un mot de passe. Vérifier si le nom d'utilisateur est "chaton" et si le mot de passe est "thebest". Si les deux conditions sont remplies, afficher un message de bienvenue. Sinon, afficher un message d'erreur.
 
 #### Exercice 4 : Vérification de l'éligibilité à un prêt
 Soit une variable contenant le revenu mensuel d'un demandeur de prêt, ainsi qu'une variable contenant le montant du prêt que le demandeur souhaite emprunter. Vérifier si le demandeur est éligible à obtenir ce prêt en utilisant les critères suivants :
  - Le revenu mensuel doit être supérieur ou égal à 2000 euros.
  - Le montant du prêt demandé doit être inférieur ou égal à 5000 euros.
+
 Afficher un message indiquant si le demandeur est éligible ou non à obtenir le prêt.
 
 #### Exercice 5 : Calcul du prix de vente
@@ -46,8 +47,8 @@ Soit une variable contenant la note sur 100 d'un étudiant. Afficher un message 
 Soit une variable contenant le poids d'un colis en kilogrammes. Calculer les frais d'expédition en utilisant les règles suivantes :
 
  - Si le poids est inférieur ou égal à 2 kg, les frais d'expédition sont de 5 euros.
- - Si le poids est compris entre 2 kg (inclus) et 5 kg, les frais d'expédition sont de 8 euros.
- - Si le poids est supérieur à 5 kg, les frais d'expédition sont de 10 euros.
+ - Si le poids est compris entre 2 kg et 5 kg (inclus), les frais d'expédition sont de 8 euros.
+ - Si le poids est strictement supérieur à 5 kg, les frais d'expédition sont de 10 euros.
 Afficher les frais d'expédition calculés.
 
 #### Exercice 9 : Vérification de la validité d'un triangle

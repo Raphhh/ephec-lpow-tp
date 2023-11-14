@@ -26,7 +26,7 @@ Ecrire un programme qui calcule le montant de la prime d'un vendeur en fonction 
 
 #### 3. Prime progressive
 
-Idem que l'exercice précédent, mais primes progressives, à partir des montants suivants: 
+Idem que l'exercice précédent, mais primes progressives, à partir des chiffres de vente suivants: 
  - 0€: 2%
  - 500€: 5%
  - 1000€: 10%

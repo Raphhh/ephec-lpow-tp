@@ -1,6 +1,6 @@
 # Principes de programmation
 
-## Exercices 1: opérateurs
+## Opérateurs
 
 ### Remarques techniques préalables
 
