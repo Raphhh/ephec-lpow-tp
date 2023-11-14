@@ -31,7 +31,7 @@ Ecrire une programme contenant une fonction retournant les résultats suivants:
 
 #### 3. Division de deux nombres
  
-Ecrire un programme contenant une fonction permettant de diviser 2 nombres (attention à la division par 0). 
+Ecrire un programme contenant une fonction permettant de diviser 2 nombres l'un par l'autre(attention à la division par 0). 
 
 [Correction](./corrections/c-division/)
 

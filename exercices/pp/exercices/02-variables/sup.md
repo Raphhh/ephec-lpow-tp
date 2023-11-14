@@ -8,7 +8,7 @@
 Soit une variable contenant une température en degrés Celsius. Convertir cette température en degrés Fahrenheit en utilisant la formule de conversion : Fahrenheit = (Celsius * 9/5) + 32. Afficher la température en degrés Fahrenheit.
 
 #### Exercice 2 : Conversion de devises
-Soit une variable contenant une quantité d'argent en euros. Convertir cette quantité en dollars en utilisant la formule de conversion : Montant en dollars = Montant en euros * Taux de change. Supposons que le taux de change soit de 1 euro équivaut à 1,18 dollar. Afficher le montant en dollars.
+Soit une variable contenant une quantité d'argent en euros. Convertir cette quantité en dollars en utilisant la formule de conversion : Montant en dollars = Montant en euros * Taux de change. Supposons que le taux de change soit de 1 euro pour 1,18 dollar. Afficher le montant en dollars.
 
 #### Exercice 3 : Calcul de l'aire d'un rectangle
 Soit deux variables contenant la longueur et la largeur d'un rectangle en mètres. Calculer l'aire du rectangle en utilisant la formule : Aire du rectangle = Longueur * Largeur. Afficher l'aire calculée.

@@ -1,17 +1,17 @@
 <?php
 
 // déclaration de la fonction
-function divide($a, $b)
+function divide($dividend, $divisor)
 {
-    if ($b == 0) {
+    if ($divisor == 0) {
         return null;
     }
-    return $a/$b;
+    return $dividend/$divisor;
 }
 
 // on appelle la fonction pour tester son comportement
-$a = (float)($_GET['a'] ?? 0);
-$b = (float)($_GET['b'] ?? 0);
-$result = divide($a, $b);
+$dividend = (float)($_GET['dividend'] ?? 0);
+$divisor = (float)($_GET['divisor'] ?? 0);
+$result = divide($dividend, $divisor);
 
-var_dump($a, $b, $result);
+var_dump($dividend, $divisor, $result);
