@@ -105,10 +105,10 @@ Ces exercices complètent les exercices [HTML](../html) en rajoutant au code une
 | Propriété | Valeurs | Utilité | Exemple | Documentation |
 |-----------|---------|---------|---------|---------------|
 | `background` |  | Fond | `` | [MDN docs - background](https://developer.mozilla.org/fr/docs/Web/CSS/background) |
-| `background-color` |  | Couleur de fond | `` | [MDN docs - background-color](https://developer.mozilla.org/fr/docs/Web/CSS/background-color) |
-| `background-image` |  | Image de fond | `` | [MDN docs - background-image](https://developer.mozilla.org/fr/docs/Web/CSS/background-image) |
-| `background-repeat` |  | Répétition de l'image de fond | `` | [MDN docs - background-repeat](https://developer.mozilla.org/fr/docs/Web/CSS/background-repeat) |
-| `background-size` | `cover`, `contain`, px, ...  | Taille de l'image de fond | `` | [MDN docs - background-size](https://developer.mozilla.org/fr/docs/Web/CSS/background-size) |
+| `background-color` |  | Couleur de fond | `background-color: grey;` | [MDN docs - background-color](https://developer.mozilla.org/fr/docs/Web/CSS/background-color) |
+| `background-image` |  | Image de fond | `background-image: url("../images/logo.png");` | [MDN docs - background-image](https://developer.mozilla.org/fr/docs/Web/CSS/background-image) |
+| `background-repeat` |  | Répétition de l'image de fond | `background-repeat: no-repeat;` | [MDN docs - background-repeat](https://developer.mozilla.org/fr/docs/Web/CSS/background-repeat) |
+| `background-size` | `cover`, `contain`, px, ...  | Taille de l'image de fond | background-size: cover;`` | [MDN docs - background-size](https://developer.mozilla.org/fr/docs/Web/CSS/background-size) |
 
 ## Position
 
