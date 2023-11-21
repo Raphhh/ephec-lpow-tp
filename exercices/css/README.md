@@ -100,6 +100,16 @@ Ces exercices complètent les exercices [HTML](../html) en rajoutant au code une
 | `margin-bottom` | Valeur absolue (ex: px) ou relative (ex: %) | Définition des marges internes | `margin-bottom: 10px;` | [MDN docs - margin-bottom](https://developer.mozilla.org/fr/docs/Web/CSS/margin-bottom) |
 | `margin-left` | Valeur absolue (ex: px) ou relative (ex: %) | Définition des marges internes | `margin-left: 10px;` | [MDN docs - margin-left](https://developer.mozilla.org/fr/docs/Web/CSS/margin-left) |
 
+## Background
+
+| Propriété | Valeurs | Utilité | Exemple | Documentation |
+|-----------|---------|---------|---------|---------------|
+| `background` |  | Fond | `` | [MDN docs - background](https://developer.mozilla.org/fr/docs/Web/CSS/background) |
+| `background-color` |  | Couleur de fond | `` | [MDN docs - background-color](https://developer.mozilla.org/fr/docs/Web/CSS/background-color) |
+| `background-image` |  | Image de fond | `` | [MDN docs - background-image](https://developer.mozilla.org/fr/docs/Web/CSS/background-image) |
+| `background-repeat` |  | Répétition de l'image de fond | `` | [MDN docs - background-repeat](https://developer.mozilla.org/fr/docs/Web/CSS/background-repeat) |
+| `background-size` | `cover`, `contain`, px, ...  | Taille de l'image de fond | `` | [MDN docs - background-size](https://developer.mozilla.org/fr/docs/Web/CSS/background-size) |
+
 ## Position
 
 | Propriété | Valeurs | Utilité | Exemple | Documentation |
