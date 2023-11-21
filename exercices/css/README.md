@@ -29,7 +29,7 @@ Ces exercices complètent les exercices [HTML](../html) en rajoutant au code une
 | `font-family` | Nom des polices | Famille de polices | `font-family: Arial, Helvetica, sans-serif;` | [MDN docs - famille de polices](https://developer.mozilla.org/fr/docs/Web/CSS/font-family) |
 | `font-size` | Valeur absolue (ex: px) ou relative (ex: em) | Taille de polices | `font-size: 18px;` | [MDN docs - taille de polices](https://developer.mozilla.org/fr/docs/Web/CSS/font-size) |
 | `font-style` | `normal`, `italic`, ... | Style de police | `font-style: italic;` | [MDN docs - style de polices](https://developer.mozilla.org/fr/docs/Web/CSS/font-style) |
-| `font-weight` | `normal`, `bold`, ... | Graisse de police | `font-weight: italic;` | [MDN docs - graisse de polices](https://developer.mozilla.org/fr/docs/Web/CSS/font-weight) |
+| `font-weight` | `normal`, `bold`, ... | Graisse de police | `font-weight: bold;` | [MDN docs - graisse de polices](https://developer.mozilla.org/fr/docs/Web/CSS/font-weight) |
 
 ### Texte (text)
 
