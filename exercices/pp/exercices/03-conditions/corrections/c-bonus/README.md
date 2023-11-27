@@ -38,7 +38,7 @@ if ($sales >= 1000) {
     $bonus = $sales * 0.1;
 } elseif ($sales >= 500) {
     $bonus = $sales * 0.05;
-}elseif ($sales >= 0) {
+} elseif ($sales >= 0) {
     $bonus = $sales * 0.02;
 } else {
     //cas qui, a priori, ne devrait jamais arriver

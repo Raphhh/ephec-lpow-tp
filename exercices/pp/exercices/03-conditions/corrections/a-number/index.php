@@ -1,10 +1,10 @@
 <?php
 
-$a = (float)($_GET['number'] ?? 0);
+$number = (float)($_GET['number'] ?? 0);
 
 $message = 'ko';
-if ($a >= 10 && $a <= 20) {
+if ($number >= 10 && $number <= 20) {
     $message = 'ok';
 }
 
-var_dump($a, $message);
+var_dump($number, $message);

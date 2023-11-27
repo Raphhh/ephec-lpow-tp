@@ -1,6 +1,6 @@
 <?php
 
-$a = (float)($_GET['value'] ?? 0);
-$result = $a * $a;
+$nombre = (float)($_GET['value'] ?? 0);
+$result = $nombre * $nombre;
 
-var_dump($a, $result);
+var_dump($nombre, $result);

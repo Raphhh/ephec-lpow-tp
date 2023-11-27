@@ -2,7 +2,40 @@
 
 Le code ci-après est repris des fichiers de solution.
 
-## Commande TVAC
+## Commande TVAC (sans constante)
+
+### JavaScript
+
+```javascript
+let vat = 0.205
+
+let costVATE = 100
+let numberOfItems = 10
+
+let totalVATE =  numberOfItems * costVATE
+let totalVATI = totalVATE + (totalVATE * vat)
+
+console.log(costVATE, numberOfItems, totalVATE, totalVATI)
+```
+
+### PHP
+
+```php
+<?php 
+
+$vat = 0.205
+
+$costVATE = 100;
+$numberOfItems = 10;
+
+$totalVATE = $numberOfItems * $costVATE;
+$totalVATI = $totalVATE + ($totalVATE * $vat);
+
+var_dump($costVATE, $numberOfItems, $totalVATE, $totalVATI);
+```
+
+
+## Commande TVAC (avec constante)
 
 ### JavaScript
 
@@ -66,7 +99,7 @@ var_dump($costVATE, $numberOfItems, $totalVATE, $totalVATI);
 
 ## Explications
 
-1. Le code PHP utilise la fonction `define` pour définir une constante appelée `VAT` avec une valeur flotante de 0.205, qui représente la valeur de la taxe sur la valeur ajoutée (TVA) en pourcentage. A défaut de constante, on pourrait utiliser une simple variable. La constante permet toutefois d'éviter toute réaffectation de valeur, ce qui, par contre, est le propre d'une variable.
+1. Le code PHP utilise la fonction `define` pour définir une variable appelée `vat` (ou une constante `VAT` qui permet d'éviter toute réaffectation de valeur) avec une valeur flotante de 0.205, qui représente la valeur de la taxe sur la valeur ajoutée (TVA) en pourcentage (20,5/100).
 
 2. Ensuite, deux variables sont définies : `$costVATE` et `$numberOfItems`. La variable `$costVATE` est initialisée avec une valeur numérique qui représente le coût d'un seul article. La variable `$numberOfItems` est initialisée avec une valeur numérique qui représente le nombre d'articles.
 

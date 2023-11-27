@@ -8,14 +8,14 @@
 
     <script>
         
-       let a = parseFloat(prompt('Valeur à affecter (float)', '')) || 0
+       let number = parseFloat(prompt('Valeur à affecter (float)', '')) || 0
 
         let message = 'ko'
-        if (a >= 10 && a <= 20) {
+        if (number >= 10 && number <= 20) {
             message = 'ok'
         }
 
-        console.log(a, message)
+        console.log(number, message)
 
     </script>
     
