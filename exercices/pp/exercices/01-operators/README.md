@@ -180,6 +180,8 @@ false == ''
 
 #### Opérateurs logiques
 
+Les opérateurs logiques permettent de réaliser des assertions faisant référence aux tables de vérités ET et OU.
+
 ```javascript
 true && true
 // que vaut l'expression?
@@ -202,6 +204,11 @@ true || false
 
 ```javascript
 !(true && false)
+// que vaut l'expression?
+```
+
+```javascript
+!(true && false) == !true || !false
 // que vaut l'expression?
 ```
 
