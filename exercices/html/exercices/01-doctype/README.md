@@ -29,7 +29,7 @@ A noter que l'utilisation d'UTF-8 est soumise aux contraintes techniques suivant
 
 A noter que la définition du charset via l'attribut `http-equiv="Content-Type"` de la balise `meta`  (pragma directive) est autorisée mais dépréciée depuis HTML5 et ne doit donc plus être utilisée. Seul l'attribut `charset` est conforme.
 
-Pour plus d'information sur l'utilisation du charset, voir [W3-org - gestion de l'encodage](https://www.w3.org/International/tutorials/tutorial-char-enc/).
+Pour plus d'information sur l'utilisation du charset, voir [W3-org - gestion de l'encodage](https://www.w3.org/International/tutorials/tutorial-char-enc/) ou encore [MDN - charset dans le head](https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#d%C3%A9finition_de_lencodage_des_caract%C3%A8res_du_document).
 
 #### Entités HTML
 
