@@ -38,7 +38,7 @@ Idem que l'exercice précédent, mais primes progressives, à partir des chiffre
 Ecrire un programme qui résout et affiche une équation du premier degré: $ax + b = c$. Dans le code, les valeurs de a, b et c sont des variables. Résoudre l'équation signifie trouver la valeur de x, soit $x = (c-b)/a$. Exemple d'affichage: `2*3.5-3=4`.
 
 Le programme veille à gérer le cas suivant:
- - $a = 0$: pas de solution réelle
+ - $a = 0$: pas de solution admise
  - $b < 0$: affichage avec signe négatif
 
 [Correction](./corrections/d-first/)
