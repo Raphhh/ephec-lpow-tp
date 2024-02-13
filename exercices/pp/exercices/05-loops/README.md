@@ -97,7 +97,9 @@ Exemple pour 2 et 3 (PPCM = 6):
 - Multiples de 2: 2,4,6,...
 - Multiples de 3: 3,6,...
 
-Pour cela, on teste les multiples de manière récurrente:
+Un multiple équivaut au nombre initial multiplié par un entier positif (1x1, 2x2, 3x2, 4x2, ...). On peut également additionner le nombre initial au dernier multiple (ex: 2, 2+2, 4+2, 6+2, ...).
+
+Après avoir calculé le premier multiple de chaque nombre, on les compare:
  - S'ils sont égaux, le code s'arrête.
  - Sinon, on calcule le multiple suivant, mais uniquement pour le multiple le plus petit.
 
