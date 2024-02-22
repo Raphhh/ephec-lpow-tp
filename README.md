@@ -183,7 +183,7 @@ Dans l'absolu, un codeur est libre de choisir n'importe quelles conventions de c
 
 ### Sensibilité à la casse
 
-En informatique, être [sensible à la casse](https://fr.wikipedia.org/wiki/Sensibilit%C3%A9_%C3%A0_la_casse) ("case sensitivity") signifie qu'une différence est faitre entre une lettre en minuscule et cette même lettre en majuscule.
+En informatique, être [sensible à la casse](https://fr.wikipedia.org/wiki/Sensibilit%C3%A9_%C3%A0_la_casse) ("case sensitivity") signifie qu'une différence est faite entre une lettre en minuscule et cette même lettre en majuscule.
 
 Certains OS et langages sont sensibles à la casse (Linux, MacOS, JavaScript, PHP, ...), d'autres non (Windows, HTML, CSS, ...).
 
@@ -221,7 +221,7 @@ Etre organisé dans son dossier de projet est impératif. Il faut accorder beauc
 
 Le code pouvant contenir un grand nombre de fichiers, il est recommandé de ranger les ressources (images, styles, scripts, fonts, ...) dans des dossiers spécifiques.
 
-On ne travaille qu'en local, jamais directement sur le serveur. Les fichiers du serveur ne sont que le reflet parfait des fichiers locaaux.
+On ne travaille qu'en local, jamais directement sur le serveur. Les fichiers du serveur ne sont que le reflet parfait des fichiers locaux.
 
 
 ## Tutoriels
