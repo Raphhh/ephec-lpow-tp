@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+<?php 
+
+$articles = include 'articles.php';
+
+?><!DOCTYPE html>
 <html lang="fr">
     <head>
         <base href="https://cdn.jsdelivr.net/gh/Raphhh/ephec-lpow-tp@master/exercices/php/01_display/templates/f-assoc/"></base>
