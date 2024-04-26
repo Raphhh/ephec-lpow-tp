@@ -16,7 +16,7 @@
  
  Gestion du fichier:
 
-  - L'ouverture du fichier se fait à l'aide de la fonction `fopen` ([PHP doc - fopen](https://www.php.net/manual/fr/function.fopen.php)). Attention à bien choisir le mode d'ouverture pour que le pointeur d'écriture soit placé en fin de fichier sans écrasement ("a+").
+  - L'ouverture du fichier se fait à l'aide de la fonction `fopen` ([PHP doc - fopen](https://www.php.net/manual/fr/function.fopen.php)). Attention à bien choisir le mode d'ouverture pour que le pointeur d'écriture soit placé en fin de fichier sans écrasement ("a+") (voir [modes d'ouverture des fichiers](..)).
   - L'écriture se fait à l'aide de la fonction `fwrite` ([PHP doc - fwrite](https://www.php.net/manual/fr/function.fwrite.php)).
   - La fermeture se fait à l'aide de la fonction `fclose` ([PHP doc - fclose](https://www.php.net/manual/fr/function.fclose.php)).
  
@@ -27,7 +27,7 @@
     - Récommandé: recourir à une concaténation pour enregistrer l'ensemble de la ligne en une seule fois.
     - Voir éventuellement, par exemple, la méthode PHP `implode` ([PHP doc - implode](https://www.php.net/manual/fr/function.implode.php)) (hors cours) qui est l'inverse de la méthode `explode` ([PHP doc - explode](https://www.php.net/manual/fr/function.explode.php)).
   - Le charactère de séparation (";") doit être défini dans une constante, car cette valeur ne peut pas être modifiée lors de l'exécution du script.
-  - Chaque user occupe une et une seule ligne. Pour délimiter la ligne, il faut ajouter un caractère spécial indiquant la fin de la ligne ("\n") (voir remarques sur les fichiers).
+  - Chaque user occupe une et une seule ligne. Pour délimiter la ligne, il faut ajouter un caractère spécial indiquant la fin de la ligne ("\n") (voir [remarques sur les fichiers](..)).
 
 **DISCLAIMER:** Attention, un enregistrement du password en clair consitue une faille de sécurité majeure! Cet exercice est réalisé uniquement dans un cadre pédagogique, et un tel code ne doit jamais être utilisé en production. Ne pas stocker de vrais passwords dans ce fichier.
 
