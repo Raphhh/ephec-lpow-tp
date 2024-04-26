@@ -26,7 +26,7 @@
     - Ecrire les données en plusieurs fois.
     - Récommandé: recourir à une concaténation pour enregistrer l'ensemble de la ligne en une seule fois.
     - Voir éventuellement, par exemple, la méthode PHP `implode` ([PHP doc - implode](https://www.php.net/manual/fr/function.implode.php)) (hors cours) qui est l'inverse de la méthode `explode` ([PHP doc - explode](https://www.php.net/manual/fr/function.explode.php)).
-  - Le charactère de séparation (";") doit être défini dans une constante, car cette valeur ne peut pas être modifiée lors de l'exécution du script.
+  - Le charactère de séparation (";") doit être défini dans une constante, car cette valeur ne peut pas être modifiée lors de l'exécution du script (voir [PHP - constantes](https://www.php.net/manual/fr/language.constants.php))
   - Chaque user occupe une et une seule ligne. Pour délimiter la ligne, il faut ajouter un caractère spécial indiquant la fin de la ligne ("\n") (voir [remarques sur les fichiers](..)).
 
 **DISCLAIMER:** Attention, un enregistrement du password en clair consitue une faille de sécurité majeure! Cet exercice est réalisé uniquement dans un cadre pédagogique, et un tel code ne doit jamais être utilisé en production. Ne pas stocker de vrais passwords dans ce fichier.
