@@ -3,8 +3,13 @@
 <head>
     <meta charset="utf-8">
     <title>Box model</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
     <style>
+
+        /* Styles à modifier pour l'exercice */
         
         .container {
             width: unset;
@@ -25,52 +30,71 @@
     </style>
 
     <style>
+
+        /*Styles pour l'affichage*/
+        
+        body {
+            margin: 10px 30px;
+        }
         h1 {
             text-align: center;
         }
+        h2 {
+            margin: 15px 0 10px 0;   
+        }
+        /*
         section {
             padding: 10px;
             padding-bottom: 40px;
             border-bottom: 1px solid lightgrey; 
-        }
+        }*/
 
     </style>
 </head>
 <body>
 
-    <h1>Box model</h1>
+    <h1>CSS box model</h1>
 
-    <section>
-    
-        <h2>Eléments de type inline-level</h2>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="inline-level-tab" data-bs-toggle="tab" data-bs-target="#inline-level" type="button" role="tab" aria-controls="inline-level" aria-selected="true">inline-level</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="block-level-tab" data-bs-toggle="tab" data-bs-target="#block-level" type="button" role="tab" aria-controls="block-level" aria-selected="false">block-level</button>
+        </li>
+    </ul>
 
-        <h3>display: inline</h3>
-        <nav class="container">
-            <a class="content" href="#">Lien 1</a>
-            <a class="content" href="#">Lien 2</a>
-            <a class="content" href="#">Lien 3</a>
-        </nav>
+    <div class="tab-content" id="myTabContent">
+
+        <section class="tab-pane fade show active" id="inline-level" role="tabpanel" aria-labelledby="inline-level-tab">
         
-        <h3>display: inline-block</h3>
-        <div class="container">
-            <img class="content" alt="Chaton roux" src="https://raw.githubusercontent.com/Raphhh/ephec-lpow-tp/master/exercices/html/exercices/03-img/corrections/images/chaton-roux.png">
-            <img class="content" alt="Chaton tigré" src="https://raw.githubusercontent.com/Raphhh/ephec-lpow-tp/master/exercices/html/exercices/03-img/corrections/images/chaton-tigre.png">
-        </div>
+            <h2>display: inline</h2>
+            <nav class="container">
+                <a class="content" href="#">Lien 1</a>
+                <a class="content" href="#">Lien 2</a>
+                <a class="content" href="#">Lien 3</a>
+            </nav>
+            
+            <h2>display: inline-block</h2>
+            <div class="container">
+                <img class="content" alt="Chaton roux" src="https://raw.githubusercontent.com/Raphhh/ephec-lpow-tp/master/exercices/html/exercices/03-img/corrections/images/chaton-roux.png">
+                <img class="content" alt="Chaton tigré" src="https://raw.githubusercontent.com/Raphhh/ephec-lpow-tp/master/exercices/html/exercices/03-img/corrections/images/chaton-tigre.png">
+            </div>
 
-    </section>
+        </section>
 
-    <section>
-    
-        <h2>Eléments de type block-level</h2>
+        <section class="tab-pane fade" id="block-level" role="tabpanel" aria-labelledby="block-level-tab">
 
-        <h3>display: block</h3>
-        <article class="container">
-            <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p class="content">Lorem ipsum dolor sit amet.</p>
-            <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </article>
+            <h2>display: block</h2>
+            <article class="container">
+                <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p class="content">Lorem ipsum dolor sit amet.</p>
+                <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </article>
 
-    </section>
+        </section>
+
+    </div>
 
 </body>
 </html>
