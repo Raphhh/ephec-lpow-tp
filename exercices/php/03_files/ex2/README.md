@@ -16,7 +16,7 @@
  
     La fonction doit donc:
      - Lire le fichier à l'aide de la fonction `fgets` ([PHP doc - fgets](https://www.php.net/manual/fr/function.fgets.php)). Chaque ligne retournée sera une ligne d'un user.
-     - Retourner les données d'un user dont on aura donné l'email en argument de la fonction. Pour cela, utiliser la méthode PHP `explode` ([PHP doc - explode](https://www.php.net/manual/fr/function.explode.php)). Cette méthode permettra de sinder la ligne du fichier en différentes données du user (email + pwd)
+     - Retourner les données d'un user dont on aura donné l'email en argument de la fonction. Pour cela, utiliser la méthode PHP `explode` ([PHP doc - explode](https://www.php.net/manual/fr/function.explode.php)). Cette méthode permettra de scinder la ligne du fichier en différentes données du user (email + pwd)
 
  3. Lorsque le formulaire est soumis, avant d'enregistrer le user dans le fichier, vérifier si le user n'est pas déjà enregistré, sur base de l'email, grâce à la fonction précédemment codée. Il ne peut pas exister plus d'un email différent dans ce fichier. Donc, n'enregistrer le user que s'il n'a pas été trouvé.
  

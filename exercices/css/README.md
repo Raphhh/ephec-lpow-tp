@@ -94,7 +94,7 @@ Ces exercices complètent les exercices [HTML](../html) en rajoutant au code une
 
 | Propriété | Valeurs | Utilité | Exemple | Documentation |
 |-----------|---------|---------|---------|---------------|
-| `margin` | Valeur absolue (ex: px) ou relative (ex: %) | Définition des marges internes | `margin: 1px solid black;` | [MDN docs - margin](https://developer.mozilla.org/fr/docs/Web/CSS/margin) |
+| `margin` | Valeur absolue (ex: px) ou relative (ex: %) | Définition des marges internes | `margin: 1px 2px;` | [MDN docs - margin](https://developer.mozilla.org/fr/docs/Web/CSS/margin) |
 | `margin-top` | Valeur absolue (ex: px) ou relative (ex: %) | Définition des marges internes | `margin-top: 10px;` | [MDN docs - margin-top](https://developer.mozilla.org/fr/docs/Web/CSS/margin-top) |
 | `margin-right` | Valeur absolue (ex: px) ou relative (ex: %) | Définition des marges internes | `margin-right: 10px;` | [MDN docs - margin-right](https://developer.mozilla.org/fr/docs/Web/CSS/margin-right) |
 | `margin-bottom` | Valeur absolue (ex: px) ou relative (ex: %) | Définition des marges internes | `margin-bottom: 10px;` | [MDN docs - margin-bottom](https://developer.mozilla.org/fr/docs/Web/CSS/margin-bottom) |
