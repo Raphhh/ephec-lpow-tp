@@ -83,6 +83,9 @@ La valeur appliquée à la propriété est définie selon l'ordre de priorités 
  2. Si aucune valeur n'est déclarée, la propriété est héritée implicitement de l'élément parent, si la propriété est héritable (voir [héritage des déclarations](https://developer.mozilla.org/fr/docs/Web/CSS/Inheritance)).
  3. Sinon, si aucune valeur n'est déclarée exlicitement ou héritée implicitement, la [valeur initiale](https://developer.mozilla.org/fr/docs/Web/CSS/initial_value) (la valeur par défaut) de la propriété est utilisée.
 
+Pour plus d'informations, voir [MDN docs - valeur définie](https://developer.mozilla.org/fr/docs/Web/CSS/specified_value)
+
+La valeur définie fait ensuite l'objet de plusieurs calculs d'affichage ([MDN docs - valeur utilisée](https://developer.mozilla.org/fr/docs/Web/CSS/used_value)).
 
 #### Valeurs globales
 
