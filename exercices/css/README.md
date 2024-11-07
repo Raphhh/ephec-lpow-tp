@@ -69,7 +69,7 @@ Ces exercices complètent les exercices [HTML](../html) en rajoutant au code une
 
 | Propriété | Valeurs | Utilité | Exemple | Documentation |
 |-----------|---------|---------|---------|---------------|
-| `padding` | Valeur absolue (ex: px) ou relative (ex: %) | Définition des marges internes | `padding: 1px solid black;` | [MDN docs - padding](https://developer.mozilla.org/fr/docs/Web/CSS/padding) |
+| `padding` | Valeur absolue (ex: px) ou relative (ex: %) | Définition des marges internes | `padding: 1px 2px;` | [MDN docs - padding](https://developer.mozilla.org/fr/docs/Web/CSS/padding) |
 | `padding-top` | Valeur absolue (ex: px) ou relative (ex: %) | Définition des marges internes | `padding-top: 10px;` | [MDN docs - padding-top](https://developer.mozilla.org/fr/docs/Web/CSS/padding-top) |
 | `padding-right` | Valeur absolue (ex: px) ou relative (ex: %) | Définition des marges internes | `padding-right: 10px;` | [MDN docs - padding-right](https://developer.mozilla.org/fr/docs/Web/CSS/padding-right) |
 | `padding-bottom` | Valeur absolue (ex: px) ou relative (ex: %) | Définition des marges internes | `padding-bottom: 10px;` | [MDN docs - padding-bottom](https://developer.mozilla.org/fr/docs/Web/CSS/padding-bottom) |
