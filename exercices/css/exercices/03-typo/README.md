@@ -43,6 +43,8 @@
 
 ### Remarques théoriques
 
+Sur les valeurs et unités en CSS: [MDN docs - Valeurs et unités CSS](https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Values_and_units)
+
 #### Valeurs de couleur
 
 Les [couleurs](https://developer.mozilla.org/fr/docs/Web/CSS/color_value) (d'une manière générale) peuvent potentiellement être définies de plusieurs façons:
@@ -56,8 +58,8 @@ Les [couleurs](https://developer.mozilla.org/fr/docs/Web/CSS/color_value) (d'une
 Les tailles (d'une manière générale) peuvent être exprimées de plusieurs façons:
    - Valeur numérique absolue pour écran (px, ...).
    - Valeur numérique absolue pour papier (pt, ...).
-   - Valeur numérique relative à l'élément parent (%, em (taille de police), rem, ...).
-   - Valeur numérique relative au viewport.
+   - Valeur numérique relative à l'élément parent (%, em (% de taille de police), rem, ...).
+   - (Valeur numérique relative au viewport.)
    - Par mot-clé absolu (small, medium, large, ...).
    - Par mot-clé relatif à l'élément parent (smaller, larger, ...).
 
@@ -73,9 +75,22 @@ A noter qu'il existe plusieurs valeurs de réinitialisation (d'une manière gén
 
 (Notions avancées)
 
-   - `initial`: permet d'appliquer la valeur initiale ([MDN docs - initial](https://developer.mozilla.org/fr/docs/Web/CSS/initial)).
-   - `inherit`: permet d'appliquer la valeur héritée du parent ([MDN docs - inherit](https://developer.mozilla.org/fr/docs/Web/CSS/inherit)).
-   - `unset`: permet d'appliquer la valeur héritée du parent ou, si aucune valeur n'ets hérité, d'appliquer la valeur initiale ([MDN docs - unset](https://developer.mozilla.org/fr/docs/Web/CSS/unset)).
+#### Valeur définie
+
+La valeur appliquée à la propriété est définie selon l'ordre de priorités suivant:
+
+ 1. Si une valeur est déclarée explicitement dans la feuille de style, elle est appliquée à l'élément, selon le principe de cascade (surcharge) des déclarations (voir aussi [spécificité des sélecteurs](https://developer.mozilla.org/fr/docs/Web/CSS/Specificity)).
+ 2. Si aucune valeur n'est déclarée, la propriété est héritée implicitement de l'élément parent, si la propriété est héritable (voir [héritage des déclarations](https://developer.mozilla.org/fr/docs/Web/CSS/Inheritance)).
+ 3. Sinon, si aucune valeur n'est déclarée exlicitement ou héritée implicitement, la [valeur initiale](https://developer.mozilla.org/fr/docs/Web/CSS/initial_value) (la valeur par défaut) de la propriété est utilisée.
+
+
+#### Valeurs globales
+
+Certaines valeurs permettent de contrôler le fonctionnement de l'héritage:
+
+   - `initial`: applique la valeur initiale ([MDN docs - initial](https://developer.mozilla.org/fr/docs/Web/CSS/initial)).
+   - `inherit`: impose explicitement la valeur du parent (a priori, utilisée lorsque la propriété n'est pas héritable) ([MDN docs - inherit](https://developer.mozilla.org/fr/docs/Web/CSS/inherit)).
+   - `unset`: réinitialise la valeur en appliquant la valeur héritée du parent ou, si aucune valeur n'est héritée, la valeur initiale ([MDN docs - unset](https://developer.mozilla.org/fr/docs/Web/CSS/unset)).
    - (`revert`: variante de `unset` ([MDN docs - revert](https://developer.mozilla.org/fr/docs/Web/CSS/revert)).)
 
 A noter que les valeurs de gestion d'héritage peuvent être utilisées avec n'importe quelle propriété, y compris la propriété raccourcie `all` ([MDN docs- all](https://developer.mozilla.org/fr/docs/Web/CSS/all)). 
