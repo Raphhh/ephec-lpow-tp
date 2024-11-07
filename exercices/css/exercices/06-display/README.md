@@ -22,4 +22,6 @@ Le type d'affichage influe sur la place prise par l'élément dans le [flux norm
 
 Les éléments de type "bloc" ou [block-level](https://developer.mozilla.org/fr/docs/Glossary/Block-level_content)  (valeurs communes: `block`, `table`) s'imposent sur toute leur ligne (aucun autre élément ne se trouvera sur la même ligne), tandis que les éléments de type "en ligne" ou [inline-level](https://developer.mozilla.org/fr/docs/Glossary/Inline-level_content) (valeurs communes: `inline`, `inline-block`) se suivent les uns les autres sur une même ligne.
 
+A noter (notions avancées) que les éléments "inline" sont affichés dans le sens d'écriture du document, selon le [mode d'écriture](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_writing_modes) appliqué.
+
 Pour plus d'information, voir [MDN docs - display](https://developer.mozilla.org/fr/docs/Web/CSS/display).
