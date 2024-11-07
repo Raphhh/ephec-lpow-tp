@@ -54,7 +54,7 @@ La propriété d'affichage `display` conditionne le comportement de boîte CSS, 
  - `inline-block` (on peut considérer la balise `img` comme répondant à ces caractéristiques)
  - `inline` (`span`, `a`, ...)
 
-Par défaut, la largeur des éléments de type "bloc" (valeur commune: `block`) équivaut à la largeur de la boîte de contenu du parent, tandis que la largeur des éléments "en ligne " ou équivalent (valeurs communes: `inline`, `inline-block`, `table`) s'adaptera à leur propre contenu.
+Souvent, la largeur des éléments `block` équivaut à la largeur de la boîte de contenu du parent (pour des notions avancées, voir [bloc englobant](https://developer.mozilla.org/fr/docs/Web/CSS/Containing_block)), tandis que la largeur des éléments `inline`, `inline-block` et `table` s'adaptera à leur propre contenu.
 
 Seuls les éléments de type "block container" (valeurs communes: `block`, `table`, `inline-block`) sont impactés par la modification de dimensions d'affichage (et de marges), au contraire des autres éléments (valeur commune: `inline`) qui conserveront toujours leur dimension d'origine.
 
