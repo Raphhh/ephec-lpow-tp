@@ -85,4 +85,6 @@ A noter que la balise HTML `img` dispose également d'attributs de hauteur (`hei
 
 A noter que la balise HTML `img`, bien qu'étant "inline" par défaut (`display: inline`), possède un comportement intermédiaire avec les "blocks" (équivalent à `display: inline-block`). Ceci est dû aux particularités des [éléments remplacés](https://developer.mozilla.org/fr/docs/Web/CSS/Replaced_element) qui accordent aux images un comportement spécifique ([MDN docs - img et CSS](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Img#mettre_en_forme_avec_css)).
 
+A noter (notions avancées) la valeur `auto` qui permet de recalculer automatiquement la taille de la hauteur d'après la taille imposée de la largeur, et vice-versa.
+
 A noter, pour aller plus loin (notions avancées), la propriété `object-fit` (non vu au cours) qui définit la façon dont une image (ou tout "élément remplacé") s'adapte au contenu parent ([MDN docs - object-fit](https://developer.mozilla.org/fr/docs/Web/CSS/object-fit))

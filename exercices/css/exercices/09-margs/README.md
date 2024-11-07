@@ -46,6 +46,8 @@ Les propriétés raccourcies `margin` et `padding` peuvent accueillir plusieurs 
 
 Pour rappel, les marges influent sur les dimensions d'affichage, selon le modèle de boîte CSS.
 
+A noter que, à la différence des propriétés de dimensions, la taille des marges internes et externes s'appliquent également aux éléments en ligne (`display: inline`), à l'exception des marges externes du haut (`margin-top`) et du bas (`margin-top`) qui demeurent sans effet.
+
 #### Centrage
 
 A noter que, lorsque l'on restreint un élément "block" dans sa largeur et qu'on lui applique un margin "auto" également sur la largeur, l'élément est centré.
@@ -61,8 +63,6 @@ A noter que, lorsque l'on restreint un élément "block" dans sa largeur et qu'o
 ```
 
 #### Fusion des marges
-
-A noter que, pour les éléments "inline", la marge du haut (`margin-top`) et la marge du bas (`margin-top`) ne s'appliquent jamais.
 
 A noter que, pour les éléments "block" contenus dans un élément sans padding, la marge du haut (`margin-top`) du premier élément et la marge du bas (`margin-top`) du dernier élément ne s'appliquent pas.
 

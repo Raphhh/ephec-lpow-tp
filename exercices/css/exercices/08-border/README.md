@@ -54,7 +54,7 @@ La propriété raccourcie `border` (de même que les propriétés `border-top`, 
 
 Pour rappel, les bordures influent sur les dimensions d'affichage, selon le modèle de boîte CSS.
 
-A noter que, à la différence des propriétés de dimensions et des marges internes et externes, la taille des bordures s'appliquent également aux éléments en ligne (`display: inline`).
+A noter que, à la différence des propriétés de dimensions, la taille des bordures s'appliquent également aux éléments en ligne (`display: inline`).
 
 #### Bordures vs. fond
 

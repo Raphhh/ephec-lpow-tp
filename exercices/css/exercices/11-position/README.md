@@ -19,14 +19,23 @@
 
 ### Remarques théoriques
 
+#### Valeurs
+
+ - `static` (valeur par défaut) : L'élément est positionné dans le flux normal et n'est pas affecté par les propriétés de positionnement.
+ - `relative` : L'élément est positionné dans le flux puis décalé par rapport à sa position normale, sans impact sur la disposition des autres éléments.
+ - `absolute` : L'élément est retiré du flux et positionné par rapport à son ancêtre positionné.
+ - `fixed` : L'élément est retiré du flux et fixé par rapport à la fenêtre d'affichage, restant en place même lors du défilement de la page.
+ - `sticky` : L'élément reste dans le flux, se déplace avec le défilement jusqu’à un certain point où il se fixe.
+
 #### Positionnement et flux (flow)
 
 Les positionnements font potentiellement sortir l'élément du [flux normal](https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Normal_Flow) de composition de la page, de sorte que l'élément affecté semble "flotter" sans plus exister pour les autres éléments qui le suivent. Ce comportement apparaît avec les valeurs suivantes:
- - absolu (`absolute`)
- - fixe (`fixed`)
- - sticky (`sitky`) (uniquement lorsque l'élément est "collé")
+ - `absolute`
+ - `fixed`
+ - `sitky` (uniquement lorsque l'élément est "fixed")
 
-A noter que la position (et donc potentiellement tout décalage de position) d'un élément mis hors du flux dans le cadre d'un positionnement prend comme référence la boîte de ses marges externes (et non de sa boîte de contenu).
+
+A noter que la position (et donc potentiellement tout décalage de position) d'un élément prend comme référence la boîte de ses marges externes (et non de sa boîte de contenu).
 
 A noter, pour aller plus loin (notions avancées), que la position (et donc potentiellement tout décalage de position) d'un élément mis hors du flux dans le cadre d'un positionnement est calculée par rapport à un "contexte de positionnement", c'est-à-dire à la position du plus haut élément parent définissant un positionnement. Par défaut, ce contexte sera l'élément `html`, ce qui, dans les faits, correspond exactement à la zone d'affichage du navigateur (viewport). (Toutefois, tout élément redéfinissant le positionnement (par exemple, en définissant un positionnement `relative`) devient un nouveau contexte de positionnement pour tous ses enfants.) 
 
