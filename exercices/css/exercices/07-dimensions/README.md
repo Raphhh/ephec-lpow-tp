@@ -79,7 +79,9 @@ Dans le cas des dimensions d'affichage, il est possible de définir des tailles 
 
 #### Dimensions des images
 
-Définir systématiquement les dimensions des images est une bonne pratique (cela permet notamment de prévoir l'espace nécessaire à l'image avant même son chargement).
+Par défaut, les dimensions d'affichage appliquées à une image sont définies par celles du fichier (ses diemensions intrinsèques).
+
+Définir explicitement les dimensions des images est une bonne pratique (cela permet notamment de prévoir l'espace nécessaire à l'image avant même son chargement).
 
 A noter que la balise HTML `img` dispose également d'attributs de hauteur (`height`) et de largeur (`width`). Ces attributs HTML représentent normalement les dimensions intrinsèques de l'image en pixels (l'unité ne devant normalement pas être mentionnée). Ces dimensions intrinsèques sont normalement écrasées par les dimensions d'affichage, telles que définies par le CSS.
 
