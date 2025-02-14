@@ -5,8 +5,7 @@ $number = (int)($_GET['number'] ?? 0);
 echo 'Table de ' . $number . '<br>';
 
 for ($i = 0; $i <= 10; $i++) {
-    $result = $i * $number;
-    echo "$i * $number = $result";
-    echo '<br>';
+    echo "$i * $number = " . $i * $number;
+    echo '<br>'; // retour à la ligne pour que ce soit un peu lisible
 }
 
