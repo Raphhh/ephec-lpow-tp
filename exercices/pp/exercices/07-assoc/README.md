@@ -26,7 +26,7 @@ Dans un programme, déclarer un tableau associatif contenant les informations d'
 
 #### 2. Calculs 2d
 
-Ecrire une fonction qui reçoit un tableau à deux dimensions de nombres. La fonction retourne un tableau associatif contenant le total, la somme et la moyenne de ces nombres.
+Ecrire une fonction qui reçoit un tableau à deux dimensions de nombres. La fonction retourne un tableau associatif contenant le nombre total d'éléments, ainsi que la somme et la moyenne des nombres.
 
 Exemple:
 
@@ -40,9 +40,9 @@ Entrée:
 Sortie:
 ```php
 [
-    'total' => 6, 
-    'sum' => 18, 
-    'average' => 3
+    'total' => 6, // 6 éléments
+    'sum' => 18, // 1+2+3+2+3+7 = 18
+    'average' => 3 // 18/6 = 3
 ]
 ```
 
