@@ -70,8 +70,7 @@ Dans un "vrai" site, les données sur les produits proviendraient d'une base de 
 Etapes d'intégration:
 
   1. Télécharger le template [hm.php](./templates/f-assoc/hm.php) qui sera la page principale.
-  2. Télécharger le fichier de données [articles.php](./corrections/f-assoc/articles.php) et placer ce fichier dans le même répertoire que `hm.php`.
-  3. Modifier le HTML de `hm.php` pour afficher les données contenues dans la variable `$articles`.
+  2. Modifier le HTML de `hm.php` pour afficher les données contenues dans la variable `$articles`.
   
 Résultat attendu:
 
