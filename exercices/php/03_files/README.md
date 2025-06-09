@@ -19,7 +19,7 @@
 
 ### Modes d'ouverture
 
-| Mode | Lecture | Ecriture | Truncate | Pointeur | Création de fichier |
+| Mode | Lecture | Ecriture | Truncate | Pointeur | Création de fichier (si possible) |
 |-|-|-|-|-|-|
 | r  | Oui | Non | Non | Début | Non |
 | r+ | Oui | Oui | Non | Début | Non |
