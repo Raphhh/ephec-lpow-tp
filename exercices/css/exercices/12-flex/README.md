@@ -22,7 +22,7 @@ En mode `flow-direction: row` (défaut), il n'y a qu'une ligne (par défaut) dan
 
 ###### Redéfinition des tailles
 
-La largeur des colonnes peut être forcée en définissant la largeur des éléments enfants, par exemple pour bénéficier de largeurs identiques.
+Par défaut, la largeur de chaque colonne dépend de son contenu. Pour forcer la largeur de sorte à bénéficier de colonnes toutes isométriques, il faut spécifier que chaque élément enfant bénéficie d'une "part" égale de colonne (`flex: 1`). 
 
 Les hauteurs des éléments enfants sont ajustées pour correspondre entre elles. A noter qu'en conséquence, les hauteurs des [éléments remplacés](https://developer.mozilla.org/fr/docs/Web/CSS/Replaced_element), comme par exemple les images, qui sont communs à un même conteneur flexible sont étirées en fonction de la plus grande, avec déformation (ratio intrinsèque non respecté). Ce comportement par défaut (`align-items: stretch`) peut être modifié.
 
@@ -56,6 +56,7 @@ Les hauteurs des éléments enfants ne sont pas ajustées pour correspondre entr
 ###### Propriétés raccourcies
 
 La propriété raccourcie `flex-flow` résume les propriétés `flow-direction` et `flex-wrap`.
+La propriété raccourcie `flex` résume les propriétés `flow-grow`, `flow-shrink` et `flex-basis` mais accepte également des valeurs seules. [MDN docs - flex](https://developer.mozilla.org/fr/docs/Web/CSS/flex) 
 
 #### Marges
 

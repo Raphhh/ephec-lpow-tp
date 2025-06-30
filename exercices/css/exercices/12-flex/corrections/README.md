@@ -3,13 +3,12 @@
  1. Trois colonnes de texte:
  
 ```css
-.col-3 {
+.col {
     display: flex;
-    justify-content: space-around;
 }
 
-.col-3 > * {
-    width: 33%;
+.col > * {
+    flex: 1;
     margin: 0;
 }
 ```
@@ -22,15 +21,14 @@ nav.horizontal {
 }
 ```
 
-3. Galerie d'images sur 3 colonnes:
+3. Galerie d'images:
 ```css
-.gallery-col-3 {
+.gallery {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap; 
 }
-.gallery-col-3 > * {
-    width: 33%;
+.gallery > * {
+    flex: 1;
     margin: 0;
 }
 ```
