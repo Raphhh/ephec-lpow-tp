@@ -18,7 +18,7 @@ Modèle de boîte
 9. [Exercice 9: marges](./exercices/09-margs/)
 10. [Exercice 10: fonds](./exercices/10-background/)
 
-Positionnement
+Disposition
 11. [Exercice 11: positionnement (position)](./exercices/11-position/)
 
 Exercices supplémentaires
