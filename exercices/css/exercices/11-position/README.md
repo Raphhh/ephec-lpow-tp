@@ -45,7 +45,7 @@ Pour plus d'information, voir [MDN docs - positionnement](https://developer.mozi
 
 #### Autres dispositions
 
-Ceci n'est pas vu au cours.
+Ce qui suit n'est pas vu au cours.
 
 Pour information, pour aller plus loin, il existe d'autres techniques de disposition (ou layout) ([MDN docs - layout](https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Introduction)):
 

@@ -79,7 +79,7 @@ Dans le cas des dimensions d'affichage, il est possible de définir des tailles 
 
 #### Dimensions des images
 
-Par défaut, les dimensions d'affichage appliquées à une image sont définies par celles du fichier (ses diemensions intrinsèques).
+Par défaut, les dimensions d'affichage appliquées à une image sont définies par celles du fichier (ses dimensions intrinsèques).
 
 Définir explicitement les dimensions des images est une bonne pratique (cela permet notamment de prévoir l'espace nécessaire à l'image avant même son chargement).
 
