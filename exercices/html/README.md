@@ -127,18 +127,19 @@ Procédure pour écrire du HTML valide (principe général du "quand on l'ouvre,
 |-----|-----------|------------|---------|---------------|
 | `div` | | Conteneur généraliste de type block | `<div><p>Lorem ipsum</p><p>Id faucibus</p></div>` | [MDN docs - div](https://developer.mozilla.org/fr/docs/Web/HTML/Element/div) |
 | `span` | | Conteneur généraliste de type inline | `<p><span>Lorem ipsum</span> dolor sit amet</p>` | [MDN docs - span](https://developer.mozilla.org/fr/docs/Web/HTML/Element/span) |
-| `section` | | Conteneur sémantique  | `<section></section>` | [MDN docs - section](https://developer.mozilla.org/fr/docs/Web/HTML/Element/section) |
-| `article` | | Conteneur sémantique  | `<article></article>` | [MDN docs - article](https://developer.mozilla.org/fr/docs/Web/HTML/Element/article) |
+| `section` | | Conteneur sémantique de section | `<section></section>` | [MDN docs - section](https://developer.mozilla.org/fr/docs/Web/HTML/Element/section) |
 | `header` | | Conteneur sémantique introductif | `<header></header>` | [MDN docs - header](https://developer.mozilla.org/fr/docs/Web/HTML/Element/header) |
 | `footer` | | Conteneur sémantique de pied de page ou de section | `<footer></footer>` | [MDN docs - footer](https://developer.mozilla.org/fr/docs/Web/HTML/Element/footer) |
-| `aside` | | Conteneur sémantique | `<aside></aside>` | [MDN docs - aside](https://developer.mozilla.org/fr/docs/Web/HTML/Element/aside) |
+| `main` | | Conteneur sémantique de contenu principal | `<main></main>` | [MDN docs - main](https://developer.mozilla.org/fr/docs/Web/HTML/Element/main) |
+| `aside` | | Conteneur sémantique de contenu secondaire | `<aside></aside>` | [MDN docs - aside](https://developer.mozilla.org/fr/docs/Web/HTML/Element/aside) |
 | `nav` | | Conteneur sémantique de navigation | `<nav></nav>` | [MDN docs - nav](https://developer.mozilla.org/fr/docs/Web/HTML/Element/nav) |
+| `article` | | Conteneur sémantique d'article | `<article></article>` | [MDN docs - article](https://developer.mozilla.org/fr/docs/Web/HTML/Element/article) |
 
 ### Textes
 
 | Tag | Attributs | Sémantique | Exemple | Documentation |
 |-----|-----------|------------|---------|---------------|
-| `h1`, `h2`, `h3`, ... | | Titre de section | | [MDN docs - h1](https://developer.mozilla.org/fr/docs/Web/HTML/Element/h1) |
+| `h1`, `h2`, ..., `h6` | | Titre de section | | [MDN docs - h1](https://developer.mozilla.org/fr/docs/Web/HTML/Element/h1) |
 | `p` | | Paragraphe | | [MDN docs - p](https://developer.mozilla.org/fr/docs/Web/HTML/Element/p) |
 | `br` | | Retour à la ligne | | [MDN docs - br](https://developer.mozilla.org/fr/docs/Web/HTML/Element/br) |
 
