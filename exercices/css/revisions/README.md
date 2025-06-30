@@ -48,8 +48,12 @@ Afficher un lien qui n'est souligné que lorsqu'il est survolé par le curseur.
 
 Restreindre la largeur maximale de la page à 1024px, l'espace exédant étant réparti sur les deux côtés latéraux.
 
+## Exercice 5: positionnement et alignement
 
-## Exercice 5: menu vertical
+Créer un menu de navigation. Sa disposition doit être horizontale, les liens hypertextes doivent être répartis sur l'ensemble de la largeur, et la barre de menu doit rester visible lorsque l'on scroll.
+
+
+## Exercice 6: menu vertical
 
 Afficher un menu de navigation vertical (les liens étant les uns au-dessus des autres).
 
