@@ -35,7 +35,11 @@
 ```css
 nav.horizontal {
     display: flex;
-    justify-content: space-around;
+}
+
+nav.horizontal > a {
+    flex: 1;
+    text-align: center;
 }
 ```
 
@@ -57,7 +61,6 @@ nav.horizontal {
 }
 .gallery > * {
     flex: 1;
-    margin: 0;
 }
 ```
 

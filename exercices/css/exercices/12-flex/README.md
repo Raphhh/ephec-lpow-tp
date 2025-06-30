@@ -40,7 +40,7 @@ D'autre comportement peuvent être appliqués (dès lors que la place le permet)
 
 Par défaut (`flex-wrap: nowrap`), il n'y aura qu'une ligne car pas de retour à la ligne autorisé. Si la somme des largeurs des colonnes dépasse la largeur de leur parent, les colonnes dépasseront vers la droite.
 
-En mode `flex-wrap: wrap`, le retour à la ligne est réalisé, ce qui signifie qu'il y aura autant de ligne que nécessaire pour éviter tout dépassement en largeur. A noter qu'avec une telle configuration, dans le cas d'enfants de type `block`, il faudra forcer la largeur des colonnes pour bénéficier de plus d'une colonne. 
+En mode `flex-wrap: wrap`, le retour à la ligne est réalisé, ce qui signifie qu'il y aura autant de ligne que nécessaire pour éviter tout dépassement en largeur. Ce mode est surtout intéressant avec des éléments à largeur fixe. A noter qu'avec une telle configuration, dans le cas d'enfants de type `block`, il faudra forcer la largeur des colonnes pour bénéficier de plus d'une colonne. 
 
 
 ##### Alignement en bloc (column)
