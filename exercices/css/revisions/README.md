@@ -18,7 +18,7 @@ Soit le projet suivant:
  |- index.html
 ```
 
-Afficher une image de fond sur la page entière de la homepage (uniquement) du site.
+Afficher une image de fond sur la page entière de la homepage (uniquement) du site. Le code CSS doit se trouver dans le fichier `/styles/main.css`.
 
 
 ## Exercice 2: image ronde
@@ -36,7 +36,7 @@ Soit le projet suivant:
  |- index.html
 ```
 
-Afficher une image ronde.
+Afficher une image ronde. Le code CSS doit se trouver dans le fichier `/styles/main.css`.
 
 
 ## Exercice 3: liens surlignés
