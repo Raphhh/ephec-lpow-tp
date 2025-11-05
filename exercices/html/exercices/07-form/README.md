@@ -9,7 +9,7 @@
 
 #### Texte
 
-1. Par ce fichier, afficher un formulaire contenant les champs suivants, accompagnés de leurs légendes respectives:
+1. Par ce fichier, afficher un formulaire contenant les champs suivants, accompagnés de leurs labels respectifs:
    - Texte simple (+ placeholder)
    - Mot de passe
    - Email (+ placeholder)
@@ -22,7 +22,7 @@
 
 #### Choix à réponse unique
 
-1. Par ce fichier, afficher un formulaire contenant les champs suivants, accompagnés de leurs légendes respectives:
+1. Par ce fichier, afficher un formulaire contenant les champs suivants, accompagnés de leurs labels respectifs:
    - Radio multiples (un seul radio bouton peut être sélectionné à la fois!)
    - Select à sélection unique (+ optgroup) avec un choix sélectionné par défaut
    - Select à sélection unique avec un choix sélectionné par défaut
@@ -32,7 +32,7 @@
 
 #### Choix à réponses multiples
 
-1. Par ce fichier, afficher un formulaire contenant les champs suivants, accompagnés de leurs légendes respectives:
+1. Par ce fichier, afficher un formulaire contenant les champs suivants, accompagnés de leurs labels respectifs:
    - Checkbox multiples (plusieurs checkbox peuvent être checkées en même temps!)
    - Checkbox unique checkée par défaut
    - Submit et reset
