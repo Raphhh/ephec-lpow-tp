@@ -4,8 +4,8 @@
 
 ### Enoncé
 
-1. Créer un fichier `forms.php`.
-2. Veiller à comprendre par quelle URL y accéder en HTTP.
+1. Créer un fichier `forms.html`.
+2. Veiller à transférer ce fichier sur un serveur web en FTP et à comprendre par quelle URL y accéder en HTTP.
 
 #### Texte
 
@@ -17,7 +17,7 @@
    - Textarea
    - ...
    - Submit et reset
-2. Afficher de manière brute les données reçues par le serveur lors de la soumission du formulaire, et tâcher de les comprendre.
+2. Debugger (F12) les données envoyées vers le serveur lors de la soumission du formulaire, et tâcher de les comprendre.
 3. Veillez à comprendre la réinitialisation des donnnées.
 
 #### Choix à réponse unique
@@ -27,7 +27,7 @@
    - Select à sélection unique (+ optgroup) avec un choix sélectionné par défaut
    - Select à sélection unique avec un choix sélectionné par défaut
    - Submit et reset
-2. Afficher de manière brute les données reçues par le serveur lors de la soumission du formulaire, et tâcher de les comprendre.
+2. Debugger (F12) les données envoyées vers le serveur lors de la soumission du formulaire, et tâcher de les comprendre.
 3. Veillez à comprendre la réinitialisation des donnnées.
 
 #### Choix à réponses multiples
@@ -36,15 +36,7 @@
    - Checkbox multiples (plusieurs checkbox peuvent être checkées en même temps!)
    - Checkbox unique checkée par défaut
    - Submit et reset
-2. Afficher de manière brute les données reçues par le serveur lors de la soumission du formulaire, et tâcher de les comprendre.
-3. Veillez à comprendre la réinitialisation des donnnées.
-
-#### Caché
-
-1. Par ce fichier, afficher un formulaire contenant les champs suivants:
-   - Caché
-   - Submit et reset
-2. Afficher de manière brute les données reçues par le serveur lors de la soumission du formulaire, et tâcher de les comprendre.
+2. Debugger (F12) les données envoyées vers le serveur lors de la soumission du formulaire, et tâcher de les comprendre.
 3. Veillez à comprendre la réinitialisation des donnnées.
 
 #### Divers
@@ -54,7 +46,7 @@
    - Range
    - ...
    - Submit et reset
-2. Afficher de manière brute les données reçues par le serveur lors de la soumission du formulaire, et tâcher de les comprendre.
+2. Debugger (F12) les données envoyées vers le serveur lors de la soumission du formulaire, et tâcher de les comprendre.
 3. Veillez à comprendre la réinitialisation des donnnées.
 
 [Corrections (v7)](./corrections)

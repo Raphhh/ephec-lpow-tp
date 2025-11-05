@@ -177,7 +177,7 @@ Procédure pour écrire du HTML valide (principe général du "quand on l'ouvre,
 
 | Tag | Attributs | Sémantique | Exemple | Documentation |
 |-----|-----------|------------|---------|---------------|
-| `a` | `href` | Hyperlien | `<a href="https://www.ephec.be/">Ephec</a>` | [MDN docs - a](https://developer.mozilla.org/fr/docs/Web/HTML/Element/a) |
+| `a` | `href`, `target="_blank"` | Hyperlien | `<a href="https://www.ephec.be/" target="_blank">Ephec</a>` | [MDN docs - a](https://developer.mozilla.org/fr/docs/Web/HTML/Element/a) |
 
 ### Formulaires
 

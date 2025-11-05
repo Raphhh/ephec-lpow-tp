@@ -24,7 +24,7 @@ En mode `flow-direction: row` (défaut), il n'y a qu'une ligne (par défaut) dan
 
 Par défaut, la largeur de chaque colonne dépend de son contenu. Pour forcer la largeur de sorte à bénéficier de colonnes toutes isométriques, il faut spécifier que chaque élément enfant bénéficie d'une "part" égale d'espace (`flex: 1`). 
 
-Les hauteurs des éléments enfants sont ajustées pour correspondre entre elles. Par défaut (`align-items: stretch`), les colonnes auront touted la même hauteur, en s'ajustant à l'élément le plus grand. A noter qu'en conséquence, les hauteurs des [éléments remplacés](https://developer.mozilla.org/fr/docs/Web/CSS/Replaced_element), comme par exemple les images, qui sont communs à un même conteneur flexible, sont étirées avec déformation (ratio intrinsèque non respecté).
+Les hauteurs des éléments enfants sont ajustées pour correspondre entre elles. Par défaut (`align-items: stretch`), les colonnes auront toutes la même hauteur, en s'ajustant à l'élément le plus grand. A noter qu'en conséquence, les hauteurs des [éléments remplacés](https://developer.mozilla.org/fr/docs/Web/CSS/Replaced_element), comme par exemple les images, qui sont communs à un même conteneur flexible, sont étirées avec déformation (ratio intrinsèque non respecté).
 
 ###### Alignement sur la ligne (justify-content)
 
