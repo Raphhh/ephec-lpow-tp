@@ -33,8 +33,8 @@ Sur ce sujet, voir [MDN docs - sélecteurs](https://developer.mozilla.org/fr/doc
 | classe (class) (important!) | Par nom de classe des balises | `.nomDeClass` | `.rouge` | [MDN - Sélecteurs de classe](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Selectors/Class_selectors) |
 | identifiant (id) (important!) | Par id d'une balise | `#id` | `#main-title` | [MDN - Sélecteurs d'id](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Selectors/ID_selectors) |
 | attribut (important!) | Par nom et potentiellement valeur d'un attribut des éléments | `[attr]`, `[attr="valeur"]`, ... | `[name="gsm"]` | [MDN - Sélecteurs d'attribut](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Selectors/Attribute_selectors) |
-| pseudo-classes (important!) | En fonction d'un statut (ou état) des éléments | `:etat` | `a:visited` | [MDN - Pseudo-casses](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Selectors/Pseudo-classes) |
-| pseudo-éléments |  | `::etat` | `p::first-line` | [MDN - pseudo-éléments](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements) |
+| pseudo-classes (important!) | En fonction d'un statut (ou état) des éléments | `:etat` | `a:visited`, `p:not(.fancy)`, `tr:nth-of-type(even)`, `div:nth-child(n + 3)` | [MDN - Pseudo-casses](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Selectors/Pseudo-classes) |
+| pseudo-éléments | Une partie spécifique d'un élement | `::part` | `p::first-line` | [MDN - pseudo-éléments](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Selectors/Pseudo-elements) |
 
 ##### Combinateurs
 
@@ -42,7 +42,7 @@ Sur ce sujet, voir [MDN docs - sélecteurs](https://developer.mozilla.org/fr/doc
 |-|-|-|-|-|
 | descendants (important!) | Tous les descendants d'éléments | ` ` (espace) | `.parent .child` | [MDN - Sélecteurs descendant](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Selectors/Descendant_combinator) |
 | descendants directs | Les éléments descendants directs seulement |  `>` | `p > *` | [MDN - Sélecteurs enfant](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Selectors/Child_combinator) |
-| voisins | Tous les éléments voisins | `~` | `div ~ p` | [MDN - Sélecteurs voisins](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Selectors/Subsequent-sibling_combinator) |
+| voisins | Tous les éléments voisins suivants | `~` | `div ~ p` | [MDN - Sélecteurs voisins](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Selectors/Subsequent-sibling_combinator) |
 | voisin direct | Les éléments voisins directs seulement | `+` | `div + p` | [MDN - Sélecteurs voisin direct](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Selectors/Next-sibling_combinator) |
 
 ##### Particularités
