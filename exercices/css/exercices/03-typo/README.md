@@ -68,11 +68,12 @@ Les tailles (d'une manière générale) peuvent être exprimées de plusieurs fa
 
 | Type | Définition | Exemple |
 |-|-|-|
-| sans-serif | Polices sans empatements | |
-| serif | Polices avec empatements | |
-| monospace | Tous les caractères mesurent la même largeur. ||
+| sans-serif | Polices sans empatements | Verdana, Arial, Helvetica, sans-serif |
+| serif | Polices avec empatements | Times, "Times New Roman", Georgia, serif |
+| monospace | Tous les caractères mesurent la même largeur. | "Lucida Console", Courier, monospace |
 | cursive | Semblable à l'écriture manuelle au crayon plutôt qu'à des caractères d'imprimerie. | |
 | fantasy | Polices décoratives | |
+| ... | | |
 
 
 ### Valeurs de réinitialisation
