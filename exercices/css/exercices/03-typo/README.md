@@ -49,9 +49,10 @@ Sur les valeurs et unités en CSS: [MDN docs - Valeurs et unités CSS](https://d
 
 Les [couleurs](https://developer.mozilla.org/fr/docs/Web/CSS/color_value) (d'une manière générale) peuvent potentiellement être définies de plusieurs façons:
    - Par mot-clé (noms anglais).
-   - Par valeur hexadécimale (pécédée du symbole `#`).
-   - Par valeur absolue RGB (ou RGBa) (red, green, blue, alpha).
-   - A noter que d'autres types de valeur sont encore possibles (hors cours).
+   - Par valeur hexadécimale (pécédée du symbole `#`) (red, green, blue, alpha).
+   - Par valeur absolue RGB (ou RGBa) (red, green, blue / alpha).
+   - A noter que d'autres types de valeur (hsl, hwb, ...) sont encore possibles (hors cours).
+   - A noter le mot-clé `currentColor ` (hors cours).
 
 #### Valeurs de taille
 
