@@ -63,6 +63,17 @@ Les tailles (d'une manière générale) peuvent être exprimées de plusieurs fa
    - Par mot-clé absolu (small, medium, large, ...).
    - Par mot-clé relatif à l'élément parent (smaller, larger, ...).
 
+#### Polices génériques
+
+| Type | Définition | Exemple |
+|-|-|-|
+| sans-serif | Polices sans empatements | |
+| serif | Polices avec empatements | |
+| monospace | Tous les caractères mesurent la même largeur. ||
+| cursive | Semblable à l'écriture manuelle au crayon plutôt qu'à des caractères d'imprimerie. | |
+| fantasy | Polices décoratives | |
+
+
 ### Valeurs de réinitialisation
 
 A noter qu'il existe plusieurs valeurs de réinitialisation (d'une manière générale).
