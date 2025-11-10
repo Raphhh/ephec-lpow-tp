@@ -32,7 +32,7 @@ Sur ce sujet, voir [MDN docs - sélecteurs](https://developer.mozilla.org/fr/doc
 | type (tag) (important!) | Par nom de balise | `nomDeBalise` | `p`, `h1`, `div`, ... | [MDN - Sélecteurs de type](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Selectors/Type_selectors) |
 | classe (class) (important!) | Par nom de classe des balises | `.nomDeClass` | `.rouge` | [MDN - Sélecteurs de classe](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Selectors/Class_selectors) |
 | identifiant (id) (important!) | Par id d'une balise | `#id` | `#main-title` | [MDN - Sélecteurs d'id](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Selectors/ID_selectors) |
-| attribut (important!) | Par nom et potentiellement valeur d'un attribut des éléments | `[attr]`, `[attr=valeur]`, ... | `[name=gsm]` | [MDN - Sélecteurs d'attribut](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Selectors/Attribute_selectors) |
+| attribut (important!) | Par nom et potentiellement valeur d'un attribut des éléments | `[attr]`, `[attr="valeur"]`, ... | `[name="gsm"]` | [MDN - Sélecteurs d'attribut](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Selectors/Attribute_selectors) |
 | pseudo-classes (important!) | En fonction d'un statut (ou état) des éléments | `:etat` | `a:visited` | [MDN - Pseudo-casses](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Selectors/Pseudo-classes) |
 | pseudo-éléments |  | `::etat` | `p::first-line` | [MDN - pseudo-éléments](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements) |
 
