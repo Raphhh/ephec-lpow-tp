@@ -17,7 +17,7 @@
 
 ### Exemples
 
-#### Universel
+#### Body
  1. Appliquer une police de caractère à l'ensemble des textes.
  2. Appliquer une couleur en hexadécimal à l'ensemble des textes.
 
