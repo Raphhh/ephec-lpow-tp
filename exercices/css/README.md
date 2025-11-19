@@ -49,7 +49,7 @@ Exercices supplémentaires
 | `font-family` | Nom des polices | Famille de polices | `font-family: Arial, Helvetica, sans-serif;` | [MDN docs - famille de polices](https://developer.mozilla.org/fr/docs/Web/CSS/font-family) |
 | `font-size` | Valeur absolue (ex: px) ou relative (ex: em) | Taille de polices | `font-size: 18px;` | [MDN docs - taille de polices](https://developer.mozilla.org/fr/docs/Web/CSS/font-size) |
 | `font-style` | `normal`, `italic`, `oblique`, ... | Style de police | `font-style: italic;` | [MDN docs - style de polices](https://developer.mozilla.org/fr/docs/Web/CSS/font-style) |
-| `font-weight` | `normal`, `bold`, `lighter`, ... | Graisse de police | `font-weight: bold;` | [MDN docs - graisse de polices](https://developer.mozilla.org/fr/docs/Web/CSS/font-weight) |
+| `font-weight` | `normal`, `bold`, `lighter`, `bolder`, `100`->`900`,  ... | Graisse de police | `font-weight: bold;` | [MDN docs - graisse de polices](https://developer.mozilla.org/fr/docs/Web/CSS/font-weight) |
 
 ### Texte (text)
 
@@ -57,14 +57,14 @@ Exercices supplémentaires
 |-----------|---------|---------|---------|---------------|
 | `color` | Couleur (hexadécimal, mot-clé, rgb, ...) | Couleur de texte | `color: #ff0033;` | [MDN docs - couleur de texte](https://developer.mozilla.org/fr/docs/Web/CSS/color) |
 | `text-align` | `left`, `right`, `center`, `justify`, ... | Alignement de texte | `text-align: center;` | [MDN docs - alignement de texte](https://developer.mozilla.org/fr/docs/Web/CSS/text-align) |
-| `text-decoration` | `none`, `underline`, `line-through`, ... | Décoration de texte | `text-decoration: underline solid red;` | [MDN docs - décoration de texte](https://developer.mozilla.org/fr/docs/Web/CSS/text-decoration) |
-| `text-transform` | `none`, `uppercase`, `capitalize`... | Transformation de texte | `text-transform: uppercase;` | [MDN docs - transformation de texte](https://developer.mozilla.org/fr/docs/Web/CSS/text-transform) |
+| `text-decoration` | `none`, `underline`, `overline`, `line-through`, ... | Décoration de texte | `text-decoration: underline solid red;` | [MDN docs - décoration de texte](https://developer.mozilla.org/fr/docs/Web/CSS/text-decoration) |
+| `text-transform` | `none`, `uppercase`, `lowercase`, `capitalize`... | Transformation de texte | `text-transform: uppercase;` | [MDN docs - transformation de texte](https://developer.mozilla.org/fr/docs/Web/CSS/text-transform) |
 
 ### Listes (list)
 
 | Propriété | Valeurs | Utilité | Exemple | Documentation |
 |-----------|---------|---------|---------|---------------|
-| `list-style-type` | `none`, `circle`, ...  | Type de marqueur (puces, numérotations, ...) | `list-style-type: upper-roman;` | [MDN docs - list-style-type](https://developer.mozilla.org/fr/docs/Web/CSS/list-style-type) |
+| `list-style-type` | `none`, `circle`, `square`, `upper-roman`, `decimal`, ...  | Type de marqueur (puces, numérotations, ...) | `list-style-type: upper-roman;` | [MDN docs - list-style-type](https://developer.mozilla.org/fr/docs/Web/CSS/list-style-type) |
 | `list-style-image` | URL  | Image de marqueur | `list-style-image: url('purple.gif');` | [MDN docs - list-style-image](https://developer.mozilla.org/fr/docs/Web/CSS/list-style-image) |
 | `list-style-position` | `inside`, `outside`  | Position du marqueur | `list-style-position:inside;` | [MDN docs - list-style-position](https://developer.mozilla.org/fr/docs/Web/CSS/list-style-position) |
 

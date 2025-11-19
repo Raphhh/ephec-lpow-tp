@@ -58,4 +58,8 @@ Créer un menu de navigation. Sa disposition doit être horizontale, les liens h
 Afficher un menu de navigation vertical (les liens étant les uns au-dessus des autres).
 
 
+## Exercice 7: tableau
+
+Afficher un tableau dont les titres sont d'une couleur de fond spécifique, puis les lignes de données sont alternativement de deux couleurs de fonds spécifiques.
+
 
