@@ -129,6 +129,7 @@ Exercices supplémentaires
 | `background-image` |  | Image de fond | `background-image: url("../images/logo.png");` | [MDN docs - background-image](https://developer.mozilla.org/fr/docs/Web/CSS/background-image) |
 | `background-repeat` | `repeat`, `repeat-x`, `repeat-y`, `no-repeat`, ... | Répétition de l'image de fond | `background-repeat: no-repeat;` | [MDN docs - background-repeat](https://developer.mozilla.org/fr/docs/Web/CSS/background-repeat) |
 | `background-size` | `cover`, `contain`, px, ...  | Taille de l'image de fond | `background-size: cover;` | [MDN docs - background-size](https://developer.mozilla.org/fr/docs/Web/CSS/background-size) |
+| `background-position` | `center`, `top`, `right`, `bottom` , `left`, %, ...  | Position de l'image de fond | `background-size: cover;` | [MDN docs - background-position](https://developer.mozilla.org/fr/docs/Web/CSS/background-position) |
 
 ## Position
 
