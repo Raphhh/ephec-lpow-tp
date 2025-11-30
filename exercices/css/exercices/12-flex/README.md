@@ -30,7 +30,7 @@ Les hauteurs des éléments enfants sont ajustées pour correspondre entre elles
 
 Par défaut (`justify-content: flex-start`), l'alignement global des éléments se fait sur la gauche (dans le cas d'une écriture de gauche à doite).
 
-D'autre comportement peuvent être appliqués (dès lors que la place le permet):
+D'autre comportement peuvent être appliqués (dès lors que la place le permet), notamment:
  - `center`: alignement au centre
  - `flex-end`: alignement sur la droite
  - `space-between` : étirement sur toute la longueur (premier et dernier collés aux bords)
@@ -49,7 +49,7 @@ En mode `flow-direction: column`, il n'y a qu'une colonne (par défaut) dans laq
 
 ###### Redéfinition des tailles
 
-La largeur appliquée par défaut est de 100% (y compris les [éléments remplacés](https://developer.mozilla.org/fr/docs/Web/CSS/Replaced_element), comme par exemple les images, qui conservent toutefois leur ratio intrinsèque). La largeur des éléments peut être redéfinie, par exemple à une taille inférieure, et les éléments seront alignés sur la gauche.
+Par défaut (`align-items: stretch`), la largeur appliquée est de 100% (y compris les [éléments remplacés](https://developer.mozilla.org/fr/docs/Web/CSS/Replaced_element), comme par exemple les images, qui conservent toutefois leur ratio intrinsèque).
 
 Les hauteurs des éléments enfants ne sont pas ajustées pour correspondre entre elles.
 

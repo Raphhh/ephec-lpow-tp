@@ -27,11 +27,12 @@ Modèle de boîte
 Disposition
 
 11. [Exercice 11: positionnement (position)](./exercices/11-position/)
+12. [Exercice 12: Flexbox](./exercices/12-flex/)
 
 
 Exercices supplémentaires
 
-12. [Supp](./revisions/)
+13. [Supp](./revisions/)
 
 
 ## Ressources
@@ -72,7 +73,7 @@ Exercices supplémentaires
 
 | Propriété | Valeurs | Utilité | Exemple | Documentation |
 |-----------|---------|---------|---------|---------------|
-| `display` | `inline`, `block`, `inline-block`, ...  | Disposition de flux | `display: inline-block;` | [MDN docs - display](https://developer.mozilla.org/fr/docs/Web/CSS/display) |
+| `display` | `none`, `inline`, `block`, `inline-block`, `table`, `flex`, ...  | Disposition de flux | `display: inline-block;` | [MDN docs - display](https://developer.mozilla.org/fr/docs/Web/CSS/display) |
 
 ### Dimensions (height, width)
 
@@ -137,6 +138,16 @@ Exercices supplémentaires
 |-----------|---------|---------|---------|---------------|
 | `position` | `static`, `relative`, `absolute`, `fixed`, ... | Type de position | `position: absolute;` | [MDN docs - position](https://developer.mozilla.org/fr/docs/Web/CSS/position) |
 | `top`, `right`, `bottom`, `left` | Valeur absolue (ex: px) ou relative (ex: %) | Déclalage de position | `top: 0px;` | [MDN docs - top](https://developer.mozilla.org/fr/docs/Web/CSS/top) |
+
+## Flexbox
+
+| Propriété | Valeurs | Utilité | Exemple | Documentation |
+|-----------|---------|---------|---------|---------------|
+| `flex-direction` | `row`, `column` | Axe principal d'alignement des éléments enfants |  | [MDN docs - flex-direction](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/flex-direction) |
+| `justify-content` | `start`, `end`, `center`, `space-between`, `space-around`, ... | Répartition des éléments enfants dans l'axe principal d'alignement |  | [MDN docs - justify-content](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/justify-content) |
+| `flex` | `auto`, `1`, ... | Propriété raccourcie, en particulier pour l'expansion des éléments dans l'axe principal d'alignement |  | [MDN docs - flex](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/flex) |
+| `align-items` | `stretch`, `start`, `end`, `center`, ... | Répartition des éléments enfants dans l'axe secondaire d'alignement |  | [MDN docs - align-items](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/align-items) |
+| `flex-wrap` | `nowrap`, `wrap`, ... | Retour à la ligne dans l'axe principal d'alignement |  | [MDN docs - flex-wrap](https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/flex-wrap) |
 
 ## Transitions
 
