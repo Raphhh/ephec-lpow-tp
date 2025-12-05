@@ -62,7 +62,7 @@ Voici la chartre graphique de base:
  
 ![Template v3.2](./images/template-v3.2.png)
 
- 3. On flanque les colonnes d'une marge externe latérale. On peut éventuellement restreint leur largeur maximale (ex: 300 pixels).
+ 3. On flanque les colonnes d'une marge externe latérale. On peut éventuellement restreindre leur largeur maximale (ex: 300 pixels).
  
 ![Template v3.3](./images/template-v3.3.png)
 
@@ -92,7 +92,7 @@ Voici la chartre graphique de base:
 
 ## Etape 6: Footer
 
- 1. En se basant sur le header, on rajoute un footer avec un menu de navigation secondaire.
+ 1. En se basant sur le header, on rajoute un footer avec un menu de navigation secondaire dont les liens ne sont pas en gras.
  
 ![Template v6.1](./images/template-v6.1.png)
 
