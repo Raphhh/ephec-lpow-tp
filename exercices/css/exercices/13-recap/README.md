@@ -5,7 +5,7 @@ Récréez la page web suivante:
 
 ![Template final](./images/template-final.png)
 
-Voici la chartre graphique de base:
+Voici la charte graphique de base:
 
 ```css
 :root {
@@ -48,7 +48,7 @@ Voici la chartre graphique de base:
 
 ## Etape 2: Section de présentation
 
- 1. On rajoute une section contenant un titre principal et un paragraphe. Cette section possède une largeur maximale de 800 pixels (ce qui permet d'avoir le retour à la ligne dans le paragraphe). Il faudra se tourner vers une astuce des marges pour centrer la section.
+ 1. On rajoute une section contenant un titre principal et un paragraphe. Cette section possède une largeur maximale de 800 pixels (ce qui permet d'avoir le retour à la ligne dans le paragraphe). Il faudra se tourner vers une astuce des marges pour centrer la section. On veille à appliquer les bons espacements verticaux.
  
 ![Template v2.1](./images/template-v2.1.png)
 
