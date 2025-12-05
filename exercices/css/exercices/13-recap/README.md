@@ -54,7 +54,7 @@ Voici la chartre graphique de base:
 
 ## Etape 3: Section de contenu principal
 
- 1. On rajoute une section au fond clair contenant un titre secondaire, ansi que trois conteneurs possédant des sous-titres et des paragraphes.
+ 1. On rajoute une section au fond clair contenant un titre secondaire, ansi que trois conteneurs au fond un peu foncé possédant des sous-titres et des paragraphes.
  
 ![Template v3.1](./images/template-v3.1.png)
 
@@ -74,7 +74,7 @@ Voici la chartre graphique de base:
 
 ## Etape 5: Section de contact
 
- 1. On rajoute une section au fond clair contenant un titre secondaire et le formulaire de contact.
+ 1. On rajoute une section au fond clair contenant un titre secondaire et le formulaire de contact. Le formulaire est également limité à 800 pixels de large, ainsi qu'un fond un peu plus foncé.
  
 ![Template v5.1](./images/template-v5.1.png)
 

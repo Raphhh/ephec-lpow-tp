@@ -32,7 +32,7 @@ Disposition
 
 Exercices supplémentaires
 
-13. [REcap](./exercices/13-recap)
+13. [Recap](./exercices/13-recap)
 14. [Supp](./exercices/14-supp)
 
 
