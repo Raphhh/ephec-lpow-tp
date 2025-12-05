@@ -1,0 +1,152 @@
+/*
+:root {
+    --font-family: Arial;
+    --color-light: #ffffff;
+    --color-dark: #265797;
+    --color-darker: #0a2540;
+    --color-accent: #f5f6f7;
+}
+
+*/
+
+
+body {
+    font-family: Arial, sans-serif;       
+    line-height: 1.6;
+    margin: 0; 
+}
+
+a { 
+    color: #265797;
+    text-decoration: none;
+}
+
+nav a {
+    margin: 0 20px;   
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header, 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+header a {
+    font-weight: 600;
+}
+
+section {
+    padding: 50px 20px 90px;
+}
+
+section.hero {
+    padding: 120px 40px 100px;
+}
+    
+section p.highlight {
+    text-align: center;
+    font-size: 1.25rem;
+    opacity: 0.85;
+} 
+
+form {
+    background: #f5f6f7;
+    padding: 30px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+input, 
+textarea, 
+button {
+    padding: 14px;
+    border-radius: 14px;
+    border: none;
+    font-size: 1rem;
+    margin: 10px;
+}
+
+
+.dark-theme {
+    background-image: linear-gradient(135deg, #0a2540 0%, #3a7bd5 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff; 
+}
+
+.dark-theme a {
+    color: #fff;
+}
+
+.dark-theme section:nth-of-type(even) {
+    background: #fff;
+    color: #0a2540;
+}
+
+.small {
+    max-width: 800px;
+    margin: auto;
+}
+
+.content {
+    padding: 30px;
+    border-radius: 14px; 
+    background: #f5f6f7;
+}
+
+.columns {  
+    display: flex;
+    justify-content: center;
+}
+
+.columns > * {
+    flex: 1; 
+    max-width: 300px; 
+    margin: 0 10px;  
+}
+
+.btn {   
+    border-radius: 14px;    
+    font-weight: 600;
+    cursor: pointer;
+}
+
+a.btn {
+    padding: 12px 26px;
+}
+
+button.btn {
+    padding: 14px;
+}
+
+.btn {
+    border: 1px solid #f5f6f7;
+    color: #fff;
+}
+
+.btn:hover {
+    background: #f5f6f7;
+    color: #265797;
+}
+
+.btn-dark, 
+.btn-dark:hover {
+    background: #265797;
+    border: 1px solid #265797;
+    color: #fff;
+}
+    

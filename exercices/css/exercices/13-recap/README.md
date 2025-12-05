@@ -48,7 +48,7 @@ Voici la chartre graphique de base:
 
 ## Etape 2: Section de présentation
 
- 1. On rajoute une section contenant un titre principal et un paragraphe. Cette section possède une largeur maximale de 800 pixels (ce qui permet d'avoir le retour à la ligne dans le paragraphe).
+ 1. On rajoute une section contenant un titre principal et un paragraphe. Cette section possède une largeur maximale de 800 pixels (ce qui permet d'avoir le retour à la ligne dans le paragraphe). Il faudra se tourner vers une astuce des marges pour centrer la section.
  
 ![Template v2.1](./images/template-v2.1.png)
 
@@ -62,7 +62,7 @@ Voici la chartre graphique de base:
  
 ![Template v3.2](./images/template-v3.2.png)
 
- 3. On restreint la largeur maximale de ces colonnes (ex: 300 pixels) et on les flanque d'une marge externe latérale.
+ 3. On flanque les colonnes d'une marge externe latérale. On peut éventuellement restreint leur largeur maximale (ex: 300 pixels).
  
 ![Template v3.3](./images/template-v3.3.png)
 
@@ -74,15 +74,15 @@ Voici la chartre graphique de base:
 
 ## Etape 5: Section de contact
 
- 1. On rajoute une section au fond clair contenant un titre secondaire et le formulaire de contact. Le formulaire est également limité à 800 pixels de large, ainsi qu'un fond un peu plus foncé.
+ 1. On rajoute une section au fond clair contenant un titre secondaire et le formulaire de contact. Le formulaire est limité à 800 pixels de large maximum et possède un fond un peu plus foncé.
  
 ![Template v5.1](./images/template-v5.1.png)
 
- 2. On dispose les champs les uns en dessous des autres.
+ 2. On dispose les champs les uns en dessous des autres. On utilisera pour cela une fonctionnalité spécifique des flexbox.
  
 ![Template v5.2](./images/template-v5.2.png)
 
- 3. On modifie les boîtes des champs (marges internes, marges externes, pas de bordure).
+ 3. On modifie le style des champs, notament leurs propriétés de boîte (marges internes, marges externes, pas de bordure).
  
 ![Template v5.3](./images/template-v5.3.png)
 
