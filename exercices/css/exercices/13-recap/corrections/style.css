@@ -134,6 +134,8 @@ button.btn {
 .btn {
     border: 1px solid #f5f6f7;
     color: #fff;
+    transition-property: background, color;
+    transition-duration: 0.7s;
 }
 
 .btn:hover {

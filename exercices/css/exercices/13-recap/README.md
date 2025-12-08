@@ -41,7 +41,7 @@ Voici la charte graphique de base:
 
  ![Template v1.5](./images/template-v1.5.png)
 
- 6. On gère le bouton au survol.
+ 6. On gère le bouton au survol. Vous pouvez aussi préciser une transition de style.
 
  ![Template v1.6](./images/template-v1.6.png)
 
