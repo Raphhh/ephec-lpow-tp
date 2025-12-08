@@ -83,8 +83,6 @@ button {
 
 .dark-theme {
     background-image: linear-gradient(135deg, #0a2540 0%, #3a7bd5 100%);
-    background-size: cover;
-    background-position: center;
     color: #fff; 
 }
 
