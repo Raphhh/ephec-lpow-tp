@@ -185,14 +185,14 @@ Procédure pour écrire du HTML valide (principe général du "quand on l'ouvre,
 |-----|-----------|------------|---------|---------------|
 | `form` | `action`, `method` | Formulaire | `<form action="#" method="post"></form>` | [MDN docs - form](https://developer.mozilla.org/fr/docs/Web/HTML/Element/form) |
 | `input` | `type`, `name`, `placeholder`, `minlength`, `maxlength`, `size`, `min`, `max`, `step`, `required`, `checked`, `value`, ...  | Champ | `<input type="text" name="username">` | [MDN docs - input](https://developer.mozilla.org/fr/docs/Web/HTML/Element/input) |
-| `select` | `name` | Liste déroulante | | [MDN docs - select](https://developer.mozilla.org/fr/docs/Web/HTML/Element/form) |
+| `select` | `name` | Liste déroulante | `<select name="animal"><option value="a">Chaton</option><option value="b">Caneton</option></select>` | [MDN docs - select](https://developer.mozilla.org/fr/docs/Web/HTML/Element/form) |
 | `option` | `value`, `selected` | Option d'une liste déroulante | | [MDN docs - option](https://developer.mozilla.org/fr/docs/Web/HTML/Element/option) |
 | `optgroup` | `label` | Groupe d'options | | [MDN docs - optgroup](https://developer.mozilla.org/fr/docs/Web/HTML/Element/optgroup) |
 | `textarea` | `name`, `rows`, `cols`, `placeholder`, `minlength`, `maxlength`, ...  | Large texte (avec retour à la ligne possible) | `<textarea name="message" rows="5"></textarea>` | [MDN docs - textarea](https://developer.mozilla.org/fr/docs/Web/HTML/Element/textarea) |
 | `label` | `for` | Label de champ | | [MDN docs - label](https://developer.mozilla.org/fr/docs/Web/HTML/Element/label) |
 | `fieldset` |  | Groupe de champs | | [MDN docs - fieldset](https://developer.mozilla.org/fr/docs/Web/HTML/Element/fieldset) |
 | `legend` |  | Titre de groupe de champs | | [MDN docs - legend](https://developer.mozilla.org/fr/docs/Web/HTML/Element/legend) |
-| `button` | `type`, `name` | Bouton de soumission d'un formulaire | | [MDN docs - button](https://developer.mozilla.org/fr/docs/Web/HTML/Element/button) |
+| `button` | `type`, `name` | Bouton de soumission d'un formulaire | `<button>Envoyer</button>` | [MDN docs - button](https://developer.mozilla.org/fr/docs/Web/HTML/Element/button) |
 
 
 ### Inclusions
