@@ -75,6 +75,7 @@ Exercices supplémentaires
 | Propriété | Valeurs | Utilité | Exemple | Documentation |
 |-----------|---------|---------|---------|---------------|
 | `display` | `none`, `inline`, `block`, `inline-block`, `table`, `flex`, ...  | Disposition de flux | `display: inline-block;` | [MDN docs - display](https://developer.mozilla.org/fr/docs/Web/CSS/display) |
+| `overflow` | `auto`, `hidden`, ...| Gestion du dépassement de contenu. | `overflow: auto` | [MDN docs - overflow](https://developer.mozilla.org/fr/docs/Web/CSS/overflow) |
 
 ### Dimensions (height, width)
 
