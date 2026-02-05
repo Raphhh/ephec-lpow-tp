@@ -33,7 +33,7 @@ Idem que l'exercice précédent, mais primes progressives, à partir des chiffre
 
 [Correction](./corrections/c-bonus/)
 
-#### 4. Equation du premier degré (optionnel au Q1, obligatoire au Q2)
+#### 4. Equation du premier degré
 
 Ecrire un programme qui résout et affiche une équation du premier degré: $ax + b = c$. Dans le code, les valeurs de a, b et c sont des variables. Résoudre l'équation signifie trouver la valeur de x, soit $x = (c-b)/a$. Exemple d'affichage: `2*3.5-3=4`.
 

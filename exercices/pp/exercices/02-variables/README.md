@@ -30,13 +30,13 @@ Ecrire un programme qui calcule la somme TVAC d'une commande, à partir de deux 
 
 [Correction](./corrections/c-vat/)
 
-#### 4. Concaténation (Optionnel au Q1, obligatoire au Q2)
+#### 4. Concaténation
 
 Ecrire un programme qui affecte à une variable la chaîne de caractères `J'ai écrit "var".` où `var` est une variable. Afficher le résultat.
 
 [Correction](./corrections/d-concat/)
 
-#### 5. Nombre pair (Optionnel au Q1, obligatoire au Q2)
+#### 5. Nombre pair
 
 Ecrire un programme qui indique si un nombre contenu dans une variable est un nombre pair. Afficher le résultat.
 
