@@ -39,9 +39,10 @@ console.log(number, message)
 
 $number = (float)($_GET['number'] ?? 0);
 
-$message = 'ko';
 if ($number >= 10 && $number <= 20) {
-    $message = 'ok';
+    echo 'ok';
+} else {
+    echo 'ko';
 }
 
 var_dump($number, $message);
@@ -51,10 +52,8 @@ var_dump($number, $message);
 ## Explications
 
  1. La variable `$number` est initialisée avec une valeur numérique.
- 
- 2. La variable `$message` est initialisée avec une valeur par défaut. Ce message par défaut ne sera écrasé que si on entre dans la condition qui suit.
 
- 3. La condition teste la valeur de `$number`. La condition n'est valide que si la valeur de `$number` est comprise entre 10 et 20, inclusivement.
+ 2. La condition teste la valeur de `$number`. La condition n'est valide que si la valeur de `$number` est comprise entre 10 et 20, inclusivement.
  
     Pour se faire, la condition est le résultat  de l'[opération logique AND](https://fr.wikipedia.org/wiki/Fonction_ET) (`&&`) de deux opérations:
     - Est-ce que la valeur de `$number` est supérieure ou égale à 10 (`$number >= 10`)?
@@ -66,9 +65,9 @@ var_dump($number, $message);
 
     (Cette logique aurait bien sûr été différente si l'on avait utilisé l'[opérateur logique OR](https://fr.wikipedia.org/wiki/Fonction_OU) (`||`).) 
 
-  4. Si la condition est vraie (et seulement dans ce cas), la valeur de `$message` est écrasée avec une nouvelle valeur.
+  3. Si la condition est vraie (et seulement dans ce cas), le message 'ok' est affiché.
 
-  5. Au final, on débugge le résultat.
+  4. Sinon, le message 'ko' est affiché.
 
 ### Code alternatif
 
@@ -79,6 +78,7 @@ $message = 'ko';
 if ($number >= 10 && $number <= 20) {
     $message = 'ok';
 }
+echo $message;
 ```
 
 est équivalent à
@@ -89,6 +89,7 @@ if ($number >= 10 && $number <= 20) {
 } else {
     $message = 'ko';
 }
+echo $message;
 ```
 
 Dans les deux cas, si le nombre n'est pas compris entre 10 et 20, le message sera 'ko'.
