@@ -150,6 +150,24 @@ Résumé des états pour les premiers nombres de la suite:
 
 [Correction](./corrections/while/c-fibonacci/)
 
+
+#### 4. Puissance
+
+Ecrire un programme calculant la plus grande puissance d'un nombre `a` dont le résultat ne dépasse pas un nombre `b`.
+
+Par exemple, `a=2` et `b=10`:
+
+1. Pour le nombre `a=2`, les résultats des premières puissances sont:
+```
+2^0=1
+2^1=2
+2^2=4
+2^3=8
+2^4=16
+```
+2. Donc, pour un nombre maximum `b=10`, le résultat de la fonction sera `3`, car `2^3<=10`.
+
+
 ### Enoncés - do while (hors cours!)
 
 #### 1. (Optionnel) Compteur de boucle
