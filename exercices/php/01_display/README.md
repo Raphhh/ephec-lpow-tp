@@ -17,7 +17,7 @@
 
 Générer du code HTML depuis PHP. Pour cela, afficher la valeur d'une variable dans un document HTML.
 
-Exemple: Afficher un nombre généré aléatoirement dans un paragraphe:
+Exemple: Afficher un nombre généré dans un paragraphe:
  - "Le nombre vaut xx" et afficher la valeur du nombre.
 
  Pour tester différents nombres, utiliser les [query params de l'URL](https://developer.mozilla.org/fr/docs/Web/URI/Reference/Query). La récupération de la valeur se fait via la superglobale `$_GET` ([PHP doc - $_GET](https://www.php.net/manual/fr/reserved.variables.get.php)). Par exemple: `?nombre=10` sera récupéré par le code `$nombre = $_GET['nombre'];`.
