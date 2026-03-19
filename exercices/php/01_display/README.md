@@ -20,7 +20,9 @@ Générer du code HTML depuis PHP. Pour cela, afficher la valeur d'une variable 
 Exemple: Afficher un nombre généré aléatoirement dans un paragraphe:
  - "Le nombre vaut xx" et afficher la valeur du nombre.
 
-Pour générer un nombre de manière aléatoire en PHP (hors cours), voir la fonction `rand` ([PHP doc - rand](https://www.php.net/manual/fr/function.rand.php)). Exemple, pour générer un nombre compris entre 0 et 10: `$number = rand(0, 10);`.
+ Pour tester différents nombres, utiliser les [query params de l'URL](https://developer.mozilla.org/fr/docs/Web/URI/Reference/Query). La récupération de la valeur se fait via la superglobale `$_GET` ([PHP doc - $_GET](https://www.php.net/manual/fr/reserved.variables.get.php)). Par exemple: `?nombre=10` sera récupéré par le code `$nombre = $_GET['nombre'];`.
+
+(Autre possibilité, générer un nombre de manière aléatoire en PHP (hors cours), voir la fonction `rand` ([PHP doc - rand](https://www.php.net/manual/fr/function.rand.php)). Exemple, pour générer un nombre compris entre 0 et 10: `$number = rand(0, 10);`.)
 
 [Correction](./corrections/a-var/)
 
