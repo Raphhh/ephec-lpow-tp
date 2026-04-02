@@ -72,7 +72,7 @@ Ecrire un programme affichant l'indice (ou index) d'une valeur contenue dans un 
 
 #### 1. Remplacement
 
-Ecrire un programme remplaçant, au sein d'un tableau, toutes les occurrences d'une valeur par une valeur de remplacement. Par exemple, pour le tableau `['a', 'b', 'c']`, si on désire remplacer la valeur "b" par la valeur "B", le tableau après modification sera `['a', 'B', 'c']`.
+Ecrire un programme remplaçant, au sein d'un tableau, toutes les occurrences d'une valeur par une valeur de remplacement. Par exemple, pour le tableau `['c', 'b', 'a', 'b']`, si on désire remplacer la valeur "b" par la valeur "B", le tableau après modification sera `['c', 'B', 'a', 'B']`.
 
 [Correction](./corrections/write/1-replace/)
 
