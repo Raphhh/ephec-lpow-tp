@@ -11,17 +11,16 @@ Le code ci-après est repris des fichiers de solution.
 ```php
 <?php
 
-function calculateScoreRow($row, $value)
+function calculateScoreRow($row, $player, $win)
 {
     $score = 0;
     $counter = 0;
     foreach ($row as $cell) {
 
-        if ($cell == $value) {
+        if ($cell == $player) {
             $counter++;
-            if ($counter == 5) {
+            if ($counter%$win == 0) {
                 $score++;
-                $counter = 0;
             }
         } else {
             $counter = 0; 
@@ -31,11 +30,11 @@ function calculateScoreRow($row, $value)
     return $score;
 }
 
-function calculateScoreGrid($grid, $value) 
+function calculateScoreGrid($grid, $player, $win) 
 {
     $score = 0;
     foreach ($grid as $row) {
-       $score += calculateScoreRow($row, $value);
+       $score += calculateScoreRow($row, $player, $win);
     }
     return $score;
 }
@@ -53,11 +52,20 @@ $grid = [
   ['o', 'o', 'o', 'o', 'o', 'o', 'x', 'x', 'x', 'x', 'x', 'x'],
 ];
 
-$result = calculateScoreGrid($grid, 'x');
-var_dump($result);
+$pointsX = calculateScoreGrid($grid, 'x', 5);
+var_dump($resultX);
 
-$result = calculateScoreGrid($grid, 'o');
-var_dump($result);
+$pointsO = calculateScoreGrid($grid, 'o', 5);
+var_dump($resultO);
+
+
+if ($pointsX > $pointsO) {
+    echo 'Les X ont gagné!';
+} elseif ($pointsX < $pointsO) {
+    echo 'Les O ont gagné!';
+} else {
+    echo 'Egalité!';
+}
 ```
 
 ## Explications
@@ -90,6 +98,6 @@ Le code compte le nombre de points de manière horizontale.
 
 Par exemple, si la ligne contient `['x', 'x', 'o']` et si la valeur à tester est "x", la valeur de `$counter` atteindra 2 à l'index 1, puis sera réinitalisée à 0 à cause du "o" final.
 
-11. Si le nombre de valeurs trouvées d'affilée atteint le nombre minimum pour bénéficier d'un point, càd 5, on incrémente la variable `$score`, càd le nombre de points de la ligne, et on réinitialise la variable `$counter` pour recommencer à compter le nombre de valeur trouvées d'affilée.
+11. Si le nombre de valeurs trouvées d'affilée atteint le nombre minimum pour bénéficier d'un point, càd 5 puis 10, puis 15 etc, on incrémente la variable `$score`, càd le nombre de points de la ligne. Autrement dit, un point est accordé pour tout multiple de 5. Afin de savoir si le counter ets un multiple de 5, on utilise une opération modulo.
 
 12. On appelle la fonction `calculateScoreGrid` pour débugger l'ensemble du code.

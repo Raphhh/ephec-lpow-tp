@@ -1,16 +1,15 @@
 <?php
 
-function calculateScoreRow($row, $value)
+function calculateScoreRow($row, $player, $win)
 {
     $score = 0;
     $counter = 0;
     foreach ($row as $cell) {
 
-        if ($cell == $value) {
+        if ($cell == $player) {
             $counter++;
-            if ($counter == 5) {
+            if ($counter%$win == 0) {
                 $score++;
-                $counter = 0;
             }
         } else {
             $counter = 0; 
@@ -20,11 +19,11 @@ function calculateScoreRow($row, $value)
     return $score;
 }
 
-function calculateScoreGrid($grid, $value) 
+function calculateScoreGrid($grid, $player, $win) 
 {
     $score = 0;
     foreach ($grid as $row) {
-       $score += calculateScoreRow($row, $value);
+       $score += calculateScoreRow($row, $player, $win);
     }
     return $score;
 }
@@ -35,8 +34,17 @@ $grid = [
     ['o', 'o', 'o', 'o', 'o', 'o', 'x', 'x', 'x', 'x', 'x', 'x'],
   ];
   
-$result = calculateScoreGrid($grid, 'x');
-var_dump($result);
+$pointsX = calculateScoreGrid($grid, 'x', 5);
+var_dump($resultX);
 
-$result = calculateScoreGrid($grid, 'o');
-var_dump($result);
+$pointsO = calculateScoreGrid($grid, 'o', 5);
+var_dump($resultO);
+
+
+if ($pointsX > $pointsO) {
+    echo 'Les X ont gagné!';
+} elseif ($pointsX < $pointsO) {
+    echo 'Les O ont gagné!';
+} else {
+    echo 'Egalité!';
+}
