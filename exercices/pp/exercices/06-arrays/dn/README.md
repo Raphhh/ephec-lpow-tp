@@ -22,13 +22,16 @@ Pour rendre l'exemple plus intéressant, on peut imaginer déterminer chaque val
 
 [Correction](./corrections/morpion-declaration/)
 
-#### 2. Jeux du morpion - vérification
+#### 2. Jeux du morpion - vérification (score horizontal)
 
 Ecrire un programme qui vérifie l'état du jeu en déterminant si des "o" ou des "x" sont alignés sur au moins n cases d'affilée. Le programme indique le nombre de points pour chaque signe, càd le nombre de fois où l'on trouve un alignement de minimum n cases.
 
 Dans le cadre de ce cours, nous allons nous contenter de ne vérifier que les lignes (et pas les colonnes, ni les diagonales).
 
-Voici un exemple de découpage du problème (procédure de résolution du problème):
+##### Procédure de résolution du problème
+
+Voici un exemple de découpage du problème:
+
   1. Afficher uniquement les 'x'.
   2. Compter le nombre total de 'x'.
   3. Compter le nombre de 'x' par ligne.
@@ -36,9 +39,7 @@ Voici un exemple de découpage du problème (procédure de résolution du probl�
   5. Compter les points.
   6. Dire si ce sont les 'x' ou les 'o' qui ont gagné.
 
-##### Algorithme
-
-###### Score horizontal
+##### Algorithme final
 
  1. Parcourir chaque ligne et additionner le score de chaque ligne.
  2. Pour chaque ligne, parcourir chaque cellule et compter le nombre de fois que le signe recherché ("x" ou "o") est présent d'affilée.
@@ -47,8 +48,7 @@ Voici un exemple de découpage du problème (procédure de résolution du probl�
 
   - Si la cellule contient le signe recherché, incrémenter un compteur.
   - Si la cellule ne contient PAS le signe recherché, réinitialiser le compteur.
-  - Dès que le compteur atteint 5, incrémenter le score de la ligne et réinitialiser le compteur.
-  - Retourner le score final de la ligne.
+  - Dès que le compteur atteint un multiple de 5, incrémenter le score.
 
 [Correction](./corrections/moprpion-verification/)
 
