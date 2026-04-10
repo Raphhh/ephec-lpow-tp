@@ -24,12 +24,17 @@ Pour rendre l'exemple plus intéressant, on peut imaginer déterminer chaque val
 
 #### 2. Jeux du morpion - vérification
 
-Ecrire un programme qui vérifie l'état du jeu en déterminant si des "o" ou des "x" sont alignés horizontalement, verticalement ou en diagonale, et ce sur au moins 5 cases d'affilée. Le programme indique le nombre de points pour chaque signe, càd le nombre de fois où l'on trouve un alignement de minimum 5 cases.
+Ecrire un programme qui vérifie l'état du jeu en déterminant si des "o" ou des "x" sont alignés sur au moins n cases d'affilée. Le programme indique le nombre de points pour chaque signe, càd le nombre de fois où l'on trouve un alignement de minimum n cases.
 
-Ce problème étant avancé, il est intéressant de construire des versions différentes de plus en plus avancées:
- - Dans un premier temps, ne vérifier que les lignes.
- - Dans un second temps, étendre la vérification aux colonnes (optionnel).
- - Enfin, étendre la vérification aux lignes diagonales (optionnel).
+Dans le cadre de ce cours, nous allons nous contenter de ne vérifier que les lignes (et pas les colonnes, ni les diagonales).
+
+Voici un exemple de découpage du problème (procédure de résolution du problème):
+  1. Afficher uniquement les 'x'.
+  2. Compter le nombre total de 'x'.
+  3. Compter le nombre de 'x' par ligne.
+  4. Compter le nombre de 'x' d'affilée (n 'x' d'affilée).
+  5. Compter les points.
+  6. Dire si ce sont les 'x' ou les 'o' qui ont gagné.
 
 ##### Algorithme
 
